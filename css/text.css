@@ -1,65 +1,45 @@
+/* text.css */
+
+/* scroll-behavior */
+
+.sb-auto { scroll-behavior: auto; }
+
+.sb-smooth { scroll-behavior: smooth; }
+
 /* Text Align Utilities with 'ta-' Prefix */
 
-.ta-center {
-  text-align: center;
-}
+.ta-center { text-align: center; }
 
-.ta-end {
-  text-align: end;
-}
+.ta-end { text-align: end; }
 
-.ta-justify {
-  text-align: justify;
-}
+.ta-justify { text-align: justify; }
 
-.ta-left {
-  text-align: left;
-}
+.ta-left { text-align: left; }
 
-.ta-right {
-  text-align: right;
-}
+.ta-right { text-align: right; }
 
-.ta-start {
-  text-align: start;
-}
+.ta-start { text-align: start; }
 
 
 
 /* Text Decoration Line Utilities with 'tdl-' Prefix */
 
-.tdl-line-through {
-  text-decoration-line: line-through;
-}
+.tdl-line-through { text-decoration-line: line-through; }
 
-.tdl-none {
-  text-decoration-line: none;
-}
+.tdl-none { text-decoration-line: none; }
 
-.tdl-overline {
-  text-decoration-line: overline;
-}
+.tdl-overline { text-decoration-line: overline; }
 
-.tdl-underline {
-  text-decoration-line: underline;
-}
+.tdl-underline { text-decoration-line: underline; }
 
 
 
 /* Text Transform Utilities */
 
-.tt-capitalize {
-  text-transform: capitalize;
-}
+.tt-capitalize { text-transform: capitalize; }
 
-.tt-lowercase {
-  text-transform: lowercase;
-}
+.tt-lowercase { text-transform: lowercase; }
 
-.tt-none {
-  text-transform: none;
-}
+.tt-none { text-transform: none; }
 
-.tt-uppercase {
-  text-transform: uppercase;
-}
+.tt-uppercase { text-transform: uppercase; }

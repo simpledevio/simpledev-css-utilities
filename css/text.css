@@ -6,7 +6,9 @@
 
 .sb-smooth { scroll-behavior: smooth; }
 
-/* Text Align Utilities with 'ta-' Prefix */
+
+
+/* text-align */
 
 .ta-center { text-align: center; }
 
@@ -22,7 +24,7 @@
 
 
 
-/* Text Decoration Line Utilities with 'tdl-' Prefix */
+/* text-decoration-line */
 
 .tdl-line-through { text-decoration-line: line-through; }
 
@@ -34,7 +36,7 @@
 
 
 
-/* Text Transform Utilities */
+/* text-transform */
 
 .tt-capitalize { text-transform: capitalize; }
 

@@ -1,4 +1,6 @@
-/* Font Style Utilities */
+/* fonts.css */
+
+/* font-style */
 
 .fs-italic { font-style: italic; }
 
@@ -6,7 +8,9 @@
 
 .fs-oblique { font-style: oblique; }
 
-/* Font Weight Utilities with 'font-weight-' Prefix */
+
+
+/* font-weight */
 
 .fw-bold { font-weight: bold; }
 

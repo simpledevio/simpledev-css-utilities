@@ -1,6 +1,5 @@
-/* whitespace.css */
+/* white-space.css */
 
-/* White Space Utilities with 'ws-' Prefix */
 .ws-normal { white-space: normal; }
 
 .ws-nowrap { white-space: nowrap; }

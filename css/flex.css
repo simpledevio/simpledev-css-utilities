@@ -20,7 +20,7 @@
 
 
 
-/* Align Content Utilities with 'ac-' Prefix */
+/* align-content */
 .ac-center { align-content: center; }
 
 .ac-flex-end { align-content: flex-end; }
@@ -51,7 +51,7 @@
 
 
 
-/* Align Self Utilities with 'as-' Prefix */
+/* align-self */
 .as-auto { align-self: auto; }
 
 .as-baseline { align-self: baseline; }
@@ -66,7 +66,7 @@
 
 
 
-/* Justify Content Utilities with 'jc-' Prefix */
+/* justify-content */
 .jc-center { justify-content: center; }
 
 .jc-flex-end { justify-content: flex-end; }

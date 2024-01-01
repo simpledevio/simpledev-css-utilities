@@ -1,4 +1,4 @@
-/* Cursor Utilities with 'c-' Prefix */
+/* cursor.css */
 
 .c-auto { cursor: auto; }
 
@@ -75,7 +75,7 @@
 .c-zoom-in { cursor: zoom-in; }
 
 .c-zoom-out { cursor: zoom-out; }
-/* Display Utilities */
+/* display.css */
 
 .d-block { display: block; }
 
@@ -120,7 +120,7 @@
 
 
 
-/* Align Content Utilities with 'ac-' Prefix */
+/* align-content */
 .ac-center { align-content: center; }
 
 .ac-flex-end { align-content: flex-end; }
@@ -151,7 +151,7 @@
 
 
 
-/* Align Self Utilities with 'as-' Prefix */
+/* align-self */
 .as-auto { align-self: auto; }
 
 .as-baseline { align-self: baseline; }
@@ -166,7 +166,7 @@
 
 
 
-/* Justify Content Utilities with 'jc-' Prefix */
+/* justify-content */
 .jc-center { justify-content: center; }
 
 .jc-flex-end { justify-content: flex-end; }
@@ -182,7 +182,9 @@
 .jc-space-evenly { justify-content: space-evenly; }
 
 .jc-stretch { justify-content: stretch; }
-/* Font Style Utilities */
+/* fonts.css */
+
+/* font-style */
 
 .fs-italic { font-style: italic; }
 
@@ -190,7 +192,9 @@
 
 .fs-oblique { font-style: oblique; }
 
-/* Font Weight Utilities with 'font-weight-' Prefix */
+
+
+/* font-weight */
 
 .fw-bold { font-weight: bold; }
 
@@ -219,10 +223,14 @@
 .fw-900 { font-weight: 900; }
 /* list.css */
 
+/* list-style-position */
+
 .lsp-inside { list-style-position: inside; }
 
 .lsp-outside { list-style-position: outside; }
-/* Overflow Utilities */
+/* overflow.css */
+
+/* overflow */
 
 .o-visible { overflow: visible; }
 
@@ -255,7 +263,7 @@
 .oy-scroll { overflow-y: scroll; }
 
 .oy-auto { overflow-y: auto; }
-/* Position Utilities with 'p' Prefix */
+/* position.css */
 
 .p-absolute { position: absolute; }
 
@@ -268,17 +276,27 @@
 .p-sticky { position: sticky; }
 /* tables.css */
 
+/* border-collapse */
+
 .bc-collapse { border-collapse: collapse; }
 
 .bc-separate { border-collapse: separate; }
 
-.tl-auto { table-layout: auto; }
 
-.tl-fixed { table-layout: fixed; }
+
+/* caption-side */
 
 .cs-top { caption-side: top; }
 
 .cs-bottom { caption-side: bottom; }
+
+
+
+/* table-layout */
+
+.tl-auto { table-layout: auto; }
+
+.tl-fixed { table-layout: fixed; }
 /* text.css */
 
 /* scroll-behavior */
@@ -287,7 +305,9 @@
 
 .sb-smooth { scroll-behavior: smooth; }
 
-/* Text Align Utilities with 'ta-' Prefix */
+
+
+/* text-align */
 
 .ta-center { text-align: center; }
 
@@ -303,7 +323,7 @@
 
 
 
-/* Text Decoration Line Utilities with 'tdl-' Prefix */
+/* text-decoration-line */
 
 .tdl-line-through { text-decoration-line: line-through; }
 
@@ -315,7 +335,7 @@
 
 
 
-/* Text Transform Utilities */
+/* text-transform */
 
 .tt-capitalize { text-transform: capitalize; }
 
@@ -326,7 +346,6 @@
 .tt-uppercase { text-transform: uppercase; }
 /* user-select.css */
 
-/* User Select Utilities with 'us-' Prefix */
 .us-all { user-select: all; }
 
 .us-auto { user-select: auto; }
@@ -336,8 +355,7 @@
 .us-none { user-select: none; }
 
 .us-text { user-select: text; }
-
-/* Vertical Align Utilities with 'va-' Prefix */
+/* vertical-align.css */
 
 .va-baseline { vertical-align: baseline; }
 
@@ -361,9 +379,8 @@
 .v-hidden { visibility: hidden; }
 
 .v-visible { visibility: visible; }
-/* whitespace.css */
+/* white-space.css */
 
-/* White Space Utilities with 'ws-' Prefix */
 .ws-normal { white-space: normal; }
 
 .ws-nowrap { white-space: nowrap; }

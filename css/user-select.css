@@ -1,0 +1,23 @@
+/* user-select.css */
+
+/* User Select Utilities with 'us-' Prefix */
+.us-all {
+  user-select: all;
+}
+
+.us-auto {
+  user-select: auto;
+}
+
+.us-contain {
+  user-select: contain;
+}
+
+.us-none {
+  user-select: none;
+}
+
+.us-text {
+  user-select: text;
+}
+

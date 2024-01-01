@@ -1,0 +1,314 @@
+/* Display Utilities */
+
+.d-block {
+  display: block;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-grid {
+  display: grid;
+}
+
+.d-inline {
+  display: inline;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.d-inline-flex {
+  display: inline-flex;
+}
+
+.d-inline-grid {
+  display: inline-grid;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-table {
+  display: table;
+}
+
+.d-table-cell {
+  display: table-cell;
+}
+
+.d-table-row {
+  display: table-row;
+}
+/* Font Style Utilities */
+
+.fs-italic {
+  font-style: italic;
+}
+
+.fs-normal {
+  font-style: normal;
+}
+
+.fs-oblique {
+  font-style: oblique;
+}
+
+/* Font Weight Utilities with 'font-weight-' Prefix */
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.fw-bolder {
+  font-weight: bolder;
+}
+
+.fw-lighter {
+  font-weight: lighter;
+}
+
+.fw-normal {
+  font-weight: normal;
+}
+
+.fw-100 {
+  font-weight: 100;
+}
+
+.fw-200 {
+  font-weight: 200;
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.fw-800 {
+  font-weight: 800;
+}
+
+.fw-900 {
+  font-weight: 900;
+}
+/* Overflow Utilities */
+
+.o-visible {
+  overflow: visible;
+}
+
+.o-hidden {
+  overflow: hidden;
+}
+
+.o-scroll {
+  overflow: scroll;
+}
+
+.o-auto {
+  overflow: auto;
+}
+
+
+
+/* overflow-x */
+
+.ox-visible {
+  overflow-x: visible;
+}
+
+.ox-hidden {
+  overflow-x: hidden;
+}
+
+.ox-scroll {
+  overflow-x: scroll;
+}
+
+.ox-auto {
+  overflow-x: auto;
+}
+
+
+
+/* overflow-y */
+
+.oy-visible {
+  overflow-y: visible;
+}
+
+.oy-hidden {
+  overflow-y: hidden;
+}
+
+.oy-scroll {
+  overflow-y: scroll;
+}
+
+.oy-auto {
+  overflow-y: auto;
+}
+/* Position Utilities with 'p' Prefix */
+
+.p-absolute {
+  position: absolute;
+}
+
+.p-fixed {
+  position: fixed;
+}
+
+.p-relative {
+  position: relative;
+}
+
+.p-static {
+  position: static;
+}
+
+.p-sticky {
+  position: sticky;
+}
+/* Text Align Utilities with 'ta-' Prefix */
+
+.ta-center {
+  text-align: center;
+}
+
+.ta-end {
+  text-align: end;
+}
+
+.ta-justify {
+  text-align: justify;
+}
+
+.ta-left {
+  text-align: left;
+}
+
+.ta-right {
+  text-align: right;
+}
+
+.ta-start {
+  text-align: start;
+}
+
+
+
+/* Text Decoration Line Utilities with 'tdl-' Prefix */
+
+.tdl-line-through {
+  text-decoration-line: line-through;
+}
+
+.tdl-none {
+  text-decoration-line: none;
+}
+
+.tdl-overline {
+  text-decoration-line: overline;
+}
+
+.tdl-underline {
+  text-decoration-line: underline;
+}
+
+
+
+/* Text Transform Utilities */
+
+.tt-capitalize {
+  text-transform: capitalize;
+}
+
+.tt-lowercase {
+  text-transform: lowercase;
+}
+
+.tt-none {
+  text-transform: none;
+}
+
+.tt-uppercase {
+  text-transform: uppercase;
+}
+/* user-select.css */
+
+/* User Select Utilities with 'us-' Prefix */
+.us-all {
+  user-select: all;
+}
+
+.us-auto {
+  user-select: auto;
+}
+
+.us-contain {
+  user-select: contain;
+}
+
+.us-none {
+  user-select: none;
+}
+
+.us-text {
+  user-select: text;
+}
+
+/* visibility.css */
+
+.v-collapse {
+  visibility: collapse;
+}
+
+.v-hidden {
+  visibility: hidden;
+}
+
+.v-visible {
+  visibility: visible;
+}
+/* whitespace.css */
+
+/* White Space Utilities with 'ws-' Prefix */
+.ws-normal {
+  white-space: normal;
+}
+
+.ws-nowrap {
+  white-space: nowrap;
+}
+
+.ws-pre {
+  white-space: pre;
+}
+
+.ws-pre-line {
+  white-space: pre-line;
+}
+
+.ws-pre-wrap {
+  white-space: pre-wrap;
+}
+

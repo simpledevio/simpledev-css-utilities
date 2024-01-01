@@ -1,5 +1,6 @@
 /* utilities.css */
 
+@import '../css/cursor.css';
 @import '../css/display.css';
 @import '../css/flex.css';
 @import '../css/fonts.css';
@@ -8,5 +9,6 @@
 @import '../css/tables.css';
 @import '../css/text.css';
 @import '../css/user-select.css';
+@import '../css/vertical-align.css';
 @import '../css/visibility.css';
 @import '../css/white-space.css';

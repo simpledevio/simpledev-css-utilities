@@ -18,6 +18,7 @@ Here is a full list of properties we support:
 - align-self
 - border-collapse
 - caption-side
+- cursor
 - display
 - flex-direction
 - flex-wrap
@@ -35,6 +36,7 @@ Here is a full list of properties we support:
 - text-decoration-line
 - text-transform
 - user-select
+- vertical-align
 - visibility
 - white-space
 

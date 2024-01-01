@@ -43,6 +43,156 @@
 .d-table-row {
   display: table-row;
 }
+/* flex.css */
+
+/* flex-wrap */
+.fw-nowrap {
+  flex-wrap: nowrap;
+}
+
+.fw-wrap {
+  flex-wrap: wrap;
+}
+
+.fw-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+
+
+/* flex-direction */
+.fd-row {
+  flex-direction: row;
+}
+
+.fd-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.fd-column {
+  flex-direction: column;
+}
+
+.fd-column-reverse {
+  flex-direction: column-reverse;
+}
+
+
+
+/* Align Content Utilities with 'ac-' Prefix */
+.ac-center {
+  align-content: center;
+}
+
+.ac-flex-end {
+  align-content: flex-end;
+}
+
+.ac-flex-start {
+  align-content: flex-start;
+}
+
+.ac-space-around {
+  align-content: space-around;
+}
+
+.ac-space-between {
+  align-content: space-between;
+}
+
+.ac-space-evenly {
+  align-content: space-evenly;
+}
+
+.ac-stretch {
+  align-content: stretch;
+}
+
+
+
+/* align-items */
+
+.ai-baseline {
+  align-items: baseline;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.ai-flex-start {
+  align-items: flex-start;
+}
+
+.ai-flex-end {
+  align-items: flex-end;
+}
+
+.ai-stretch {
+  align-items: stretch;
+}
+
+
+
+/* Align Self Utilities with 'as-' Prefix */
+.as-auto {
+  align-self: auto;
+}
+
+.as-baseline {
+  align-self: baseline;
+}
+
+.as-center {
+  align-self: center;
+}
+
+.as-flex-end {
+  align-self: flex-end;
+}
+
+.as-flex-start {
+  align-self: flex-start;
+}
+
+.as-stretch {
+  align-self: stretch;
+}
+
+
+
+/* Justify Content Utilities with 'jc-' Prefix */
+.jc-center {
+  justify-content: center;
+}
+
+.jc-flex-end {
+  justify-content: flex-end;
+}
+
+.jc-flex-start {
+  justify-content: flex-start;
+}
+
+.jc-normal {
+  justify-content: normal;
+}
+
+.jc-space-around {
+  justify-content: space-around;
+}
+
+.jc-space-between {
+  justify-content: space-between;
+}
+
+.jc-space-evenly {
+  justify-content: space-evenly;
+}
+
+.jc-stretch {
+  justify-content: stretch;
+}
 /* Font Style Utilities */
 
 .fs-italic {
@@ -188,6 +338,19 @@
 .p-sticky {
   position: sticky;
 }
+/* tables.css */
+
+.bc-collapse { border-collapse: collapse; }
+
+.bc-separate { border-collapse: separate; }
+
+.tl-auto { table-layout: auto; }
+
+.tl-fixed { table-layout: fixed; }
+
+.cs-top { caption-side: top; }
+
+.cs-bottom { caption-side: bottom; }
 /* Text Align Utilities with 'ta-' Prefix */
 
 .ta-center {

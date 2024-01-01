@@ -2,9 +2,39 @@
 
 This project provides utility classes that can be used alongside simpledev.css or your own projects.
 
+## Try it
+
+```html
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/simpledevio/simpledev-css-utilities@latest/dist/simpledev-utilities.css">
+```
+
 ## Classes
 
 Currently we are focused on creating utility classes for properties that have a finite number of values, like `display`, `position`, `font-style`, and `text-align`. We don't have classes for properties that can have a lot of different values, like `font-size`.
+
+Here is a full list of classes we support:
+- align-content
+- align-items
+- align-self
+- border-collapse
+- caption-side
+- display
+- flex-direction
+- flex-wrap
+- font-style
+- font-weight
+- justify-content
+- overflow
+- overflow-x
+- overflow-y
+- position
+- table-layout
+- text-align
+- text-decoration-line
+- text-transform
+- user-select
+- visibility
+- white-space
 
 ## Naming convention
 

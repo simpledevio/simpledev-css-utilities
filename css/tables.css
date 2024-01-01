@@ -1,0 +1,13 @@
+/* tables.css */
+
+.bc-collapse { border-collapse: collapse; }
+
+.bc-separate { border-collapse: separate; }
+
+.tl-auto { table-layout: auto; }
+
+.tl-fixed { table-layout: fixed; }
+
+.cs-top { caption-side: top; }
+
+.cs-bottom { caption-side: bottom; }

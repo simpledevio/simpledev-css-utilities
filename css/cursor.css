@@ -1,24 +1,10 @@
 /* cursor.css */
 
-.c-auto { cursor: auto; }
-
-.c-default { cursor: default; }
-
-.c-crosshair { cursor: crosshair; }
-
-.c-help { cursor: help; }
-
-.c-pointer { cursor: pointer; }
-
-.c-progress { cursor: progress; }
-
-.c-text { cursor: text; }
-
-.c-wait { cursor: wait; }
-
 .c-alias { cursor: alias; }
 
 .c-all-scroll { cursor: all-scroll; }
+
+.c-auto { cursor: auto; }
 
 .c-cell { cursor: cell; }
 
@@ -27,6 +13,12 @@
 .c-context-menu { cursor: context-menu; }
 
 .c-copy { cursor: copy; }
+
+.c-crosshair { cursor: crosshair; }
+
+.c-default { cursor: default; }
+
+.c-help { cursor: help; }
 
 .c-e-resize { cursor: e-resize; }
 
@@ -55,6 +47,8 @@
 .c-not-allowed { cursor: not-allowed; }
 
 .c-pointer { cursor: pointer; }
+
+.c-progress { cursor: progress; }
 
 .c-row-resize { cursor: row-resize; }
 

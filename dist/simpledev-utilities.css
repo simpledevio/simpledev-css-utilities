@@ -1,24 +1,10 @@
 /* cursor.css */
 
-.c-auto { cursor: auto; }
-
-.c-default { cursor: default; }
-
-.c-crosshair { cursor: crosshair; }
-
-.c-help { cursor: help; }
-
-.c-pointer { cursor: pointer; }
-
-.c-progress { cursor: progress; }
-
-.c-text { cursor: text; }
-
-.c-wait { cursor: wait; }
-
 .c-alias { cursor: alias; }
 
 .c-all-scroll { cursor: all-scroll; }
+
+.c-auto { cursor: auto; }
 
 .c-cell { cursor: cell; }
 
@@ -27,6 +13,12 @@
 .c-context-menu { cursor: context-menu; }
 
 .c-copy { cursor: copy; }
+
+.c-crosshair { cursor: crosshair; }
+
+.c-default { cursor: default; }
+
+.c-help { cursor: help; }
 
 .c-e-resize { cursor: e-resize; }
 
@@ -55,6 +47,8 @@
 .c-not-allowed { cursor: not-allowed; }
 
 .c-pointer { cursor: pointer; }
+
+.c-progress { cursor: progress; }
 
 .c-row-resize { cursor: row-resize; }
 
@@ -221,6 +215,36 @@
 .fw-800 { font-weight: 800; }
 
 .fw-900 { font-weight: 900; }
+/* grid.css */
+
+/* Justify Items Utilities with 'ji-' Prefix */
+.ji-auto { justify-items: auto; }
+
+.ji-center { justify-items: center; }
+
+.ji-end { justify-items: end; }
+
+.ji-flex-end { justify-items: flex-end; }
+
+.ji-start { justify-items: start; }
+
+.ji-flex-start { justify-items: flex-start; }
+
+.ji-stretch { justify-items: stretch; }
+
+
+
+/* Justify Self Utilities with 'js-' Prefix */
+.js-auto { justify-self: auto; }
+
+.js-center { justify-self: center; }
+
+.js-end { justify-self: end; }
+
+.js-start { justify-self: start; }
+
+.js-stretch { justify-self: stretch; }
+
 /* list.css */
 
 /* list-style-position */

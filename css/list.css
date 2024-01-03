@@ -12,6 +12,8 @@
 
 .lst-decimal { list-style-type: decimal; }
 
+.lst-decimal-leading-zero { list-style-type: decimal-leading-zero; }
+
 .lst-disc { list-style-type: disc; }
 
 .lst-georgian { list-style-type: georgian; }

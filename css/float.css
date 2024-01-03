@@ -1,0 +1,19 @@
+/* float.css */
+
+/* clear */
+
+.c-both { clear: both; }
+
+.c-left { clear: left; }
+
+.c-none { clear: none; }
+
+.c-right { clear: right; }
+
+/* float */
+
+.f-left { float: left; }
+
+.f-none { float: none; }
+
+.f-right { float: right; }

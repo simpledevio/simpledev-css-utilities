@@ -10,13 +10,14 @@ This project provides utility classes that can be used alongside simpledev.css o
 
 ## Classes
 
-Currently we are focused on creating utility classes for properties that have a finite number of values, like `display`, `position`, `font-style`, and `text-align`. We don't have classes for properties that can have a lot of different values, like `font-size`.
+Currently we are focused on creating utility classes for properties that have a finite number of values, like `display`, `position`, `font-style`, and `text-align`. We will add classes for properties that can have a lot of different values later (like `font-size`).
 
 Here is a full list of properties we support:
 - align-content
 - align-items
 - align-self
 - border-collapse
+- box-sizing
 - caption-side
 - cursor
 - display

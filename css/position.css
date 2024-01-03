@@ -1,5 +1,6 @@
 /* position.css */
 
+/* position */
 .p-absolute { position: absolute; }
 
 .p-fixed { position: fixed; }
@@ -9,3 +10,13 @@
 .p-static { position: static; }
 
 .p-sticky { position: sticky; }
+
+/* other */
+.t-0 {top: 0;}
+.b-0 {bottom: 0;}
+.r-0 {right: 0;}
+.l-0 {left: 0;}
+
+/* z-index */
+.zi-auto {z-index: auto;}
+.zi-0 {z-index: 0;}

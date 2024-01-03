@@ -1,3 +1,64 @@
+/* border.css */
+
+/* box-sizing */
+
+.bs-border-box {box-sizing: border-box;}
+
+.bs-content-box {box-sizing: content-box;}
+
+/* border-radius */
+
+.br-0 {border-radius: 0;}
+
+.br-max {border-radius: 9999px;}
+
+/* border-style */
+
+.bs-dashed { border-style: dashed; }
+
+.bs-dotted { border-style: dotted; }
+
+.bs-double { border-style: double; }
+
+.bs-groove { border-style: groove; }
+
+.bs-hidden { border-style: hidden; }
+
+.bs-inset { border-style: inset; }
+
+.bs-none { border-style: none; }
+
+.bs-outset { border-style: outset; }
+
+.bs-ridge { border-style: ridge; }
+
+.bs-solid { border-style: solid; }
+
+/* border-width */
+
+.bw-0 { border-width: 0; }
+
+.bw-1 { border-width: 1px; }
+
+.bw-2 { border-width: 2px; }
+
+.bw-3 { border-width: 4px; }
+
+.bw-4 { border-width: 6px; }
+
+.bw-5 { border-width: 8px; }
+
+.bw-6 { border-width: 10px; }
+/* box.css */
+
+/* width */
+.w-100 {width: 100%;}
+.mw-100 {width: 100%;}
+/* color.css */
+
+.c-white {color: #fff;}
+.bg-white {background-color: #fff;}
+.bg-transparent {background-color: transparent;}
 /* cursor.css */
 
 .c-alias { cursor: alias; }
@@ -176,7 +237,40 @@
 .jc-space-evenly { justify-content: space-evenly; }
 
 .jc-stretch { justify-content: stretch; }
+/* float.css */
+
+/* clear */
+
+.c-both { clear: both; }
+
+.c-left { clear: left; }
+
+.c-none { clear: none; }
+
+.c-right { clear: right; }
+
+/* float */
+
+.f-left { float: left; }
+
+.f-none { float: none; }
+
+.f-right { float: right; }
 /* fonts.css */
+
+/* font-size */
+
+.fs-1 { font-size: 1rem; }
+
+.fs-2 { font-size: 1.25rem; }
+
+.fs-3 { font-size: 1.5rem; }
+
+.fs-4 { font-size: 1.75rem; }
+
+.fs-5 { font-size: 2rem; }
+
+.fs-6 { font-size: 2.5rem; }
 
 /* font-style */
 
@@ -215,6 +309,20 @@
 .fw-800 { font-weight: 800; }
 
 .fw-900 { font-weight: 900; }
+
+/* line-height */
+
+.lh-1 { line-height: 1; }
+
+.lh-2 { line-height: 1.1; }
+
+.lh-3 { line-height: 1.25; }
+
+.lh-4 { line-height: 1.5; }
+
+.lh-5 { line-height: 1.75; }
+
+.lh-6 { line-height: 2; }
 /* grid.css */
 
 /* Justify Items Utilities with 'ji-' Prefix */
@@ -252,6 +360,63 @@
 .lsp-inside { list-style-position: inside; }
 
 .lsp-outside { list-style-position: outside; }
+
+/* list-style-type */
+
+.lst-circle { list-style-type: circle; }
+
+.lst-decimal { list-style-type: decimal; }
+
+.lst-disc { list-style-type: disc; }
+
+.lst-georgian { list-style-type: georgian; }
+
+.lst-lower-alpha { list-style-type: lower-alpha; }
+
+.lst-lower-greek { list-style-type: lower-greek; }
+
+.lst-lower-roman { list-style-type: lower-roman; }
+
+.lst-none { list-style-type: none; }
+
+.lst-square { list-style-type: square; }
+
+.lst-upper-alpha { list-style-type: upper-alpha; }
+
+.lst-upper-roman { list-style-type: upper-roman; }
+/* margin.css */
+
+/* auto */
+.m-auto {margin: auto;}
+
+.mt-auto {margin-top: auto;}
+.mr-auto {margin-right: auto;}
+.mb-auto {margin-bottom: auto;}
+.ml-auto {margin-left: auto !important;}
+
+.mis-auto {margin-inline-start: auto;}
+.mie-auto {margin-inline-end: auto;}
+.mi-auto {margin-inline: auto;}
+
+.mbl-auto {margin-block: auto;}
+.mbe-auto {margin-block-end: auto;}
+.mbs-auto {margin-block-start: auto;}
+
+/* 0 */
+.m-0 {margin: 0;}
+
+.mt-0 {margin-top: 0;}
+.mr-0 {margin-right: 0;}
+.mb-0 {margin-bottom: 0;}
+.ml-0 {margin-left: 0 !important;}
+
+.mis-0 {margin-inline-start: 0;}
+.mie-0 {margin-inline-end: 0;}
+.mi-0 {margin-inline: 0;}
+
+.mbl-0 {margin-block: 0;}
+.mbe-0 {margin-block-end: 0;}
+.mbs-0 {margin-block-start: 0;}
 /* overflow.css */
 
 /* overflow */
@@ -287,8 +452,25 @@
 .oy-scroll { overflow-y: scroll; }
 
 .oy-auto { overflow-y: auto; }
+/* padding.css */
+
+.p-0 {padding: 0;}
+
+.pt-0 {padding-top: 0;}
+.pr-0 {padding-right: 0;}
+.pb-0 {padding-bottom: 0;}
+.pl-0 {padding-left: 0 !important;}
+
+.pis-0 {padding-inline-start: 0;}
+.pie-0 {padding-inline-end: 0;}
+.pi-0 {padding-inline: 0;}
+
+.pbl-0 {padding-block: 0;}
+.pbe-0 {padding-block-end: 0;}
+.pbs-0 {padding-block-start: 0;}
 /* position.css */
 
+/* position */
 .p-absolute { position: absolute; }
 
 .p-fixed { position: fixed; }
@@ -298,6 +480,16 @@
 .p-static { position: static; }
 
 .p-sticky { position: sticky; }
+
+/* other */
+.t-0 {top: 0;}
+.b-0 {bottom: 0;}
+.r-0 {right: 0;}
+.l-0 {left: 0;}
+
+/* z-index */
+.zi-auto {z-index: auto;}
+.zi-0 {z-index: 0;}
 /* tables.css */
 
 /* border-collapse */

@@ -22,6 +22,9 @@ css_files=(
     "css/vertical-align.css"
     "css/visibility.css"
     "css/white-space.css"
+    "css/_breakpoint-sm.css"
+    "css/_breakpoint-md.css"
+    "css/_breakpoint-lg.css"
     # Add more file paths as needed
 )
 

@@ -1,0 +1,83 @@
+/* _breakpoint-sm.css */
+
+@media (min-width: 576px) {
+  .d-block-sm { display: block; }
+  .d-flex-sm { display: flex; }
+  .d-grid-sm { display: grid; }
+  .d-none-sm { display: none; }
+
+  .d-inline-sm { display: inline; }
+  .d-inline-block-sm { display: inline-block; }
+  .d-inline-flex-sm { display: inline-flex; }
+  .d-inline-grid-sm { display: inline-grid; }
+
+  .d-table-sm { display: table; }
+  .d-table-cell-sm { display: table-cell; }
+  .d-table-row-sm { display: table-row; }
+
+/* flex.css */
+
+/* flex-wrap */
+.fw-nowrap-sm { flex-wrap: nowrap; }
+.fw-wrap-sm { flex-wrap: wrap; }
+.fw-wrap-reverse-sm { flex-wrap: wrap-reverse; }
+
+
+
+/* flex-direction */
+.fd-row-sm { flex-direction: row; }
+.fd-row-reverse-sm { flex-direction: row-reverse; }
+.fd-column-sm { flex-direction: column; }
+.fd-column-reverse-sm -sm{ flex-direction: column-reverse; }
+
+
+
+/* align-content */
+.ac-center-sm { align-content: center; }
+.ac-flex-end-sm { align-content: flex-end; }
+.ac-flex-start-sm { align-content: flex-start; }
+.ac-space-around-sm { align-content: space-around; }
+.ac-space-between-sm { align-content: space-between; }
+.ac-space-evenly-sm { align-content: space-evenly; }
+.ac-stretch-sm { align-content: stretch; }
+
+
+
+/* align-items */
+.ai-baseline-sm { align-items: baseline; }
+.ai-center-sm { align-items: center; }
+.ai-flex-start-sm { align-items: flex-start; }
+.ai-flex-end-sm { align-items: flex-end; }
+.ai-stretch-sm { align-items: stretch; }
+
+
+
+/* align-self */
+.as-auto-sm { align-self: auto; }
+.as-baseline-sm { align-self: baseline; }
+.as-center-sm { align-self: center; }
+.as-flex-end-sm { align-self: flex-end; }
+.as-flex-start-sm { align-self: flex-start; }
+.as-stretch-sm { align-self: stretch; }
+
+
+
+/* justify-content */
+.jc-center-sm { justify-content: center; }
+.jc-flex-end-sm { justify-content: flex-end; }
+.jc-flex-start-sm { justify-content: flex-start; }
+.jc-normal-sm { justify-content: normal; }
+.jc-space-around-sm { justify-content: space-around; }
+.jc-space-between-sm { justify-content: space-between; }
+.jc-space-evenly-sm { justify-content: space-evenly; }
+.jc-stretch-sm { justify-content: stretch; }
+
+
+/* text-align */
+.ta-center-sm { text-align: center; }
+.ta-end-sm { text-align: end; }
+.ta-justify-sm { text-align: justify; }
+.ta-left-sm { text-align: left; }
+.ta-right-sm { text-align: right; }
+.ta-start-sm { text-align: start; }
+}

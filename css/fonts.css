@@ -1,25 +1,16 @@
 /* fonts.css */
 
 /* font-size */
-
 .fs-1 { font-size: 1rem; }
-
 .fs-2 { font-size: 1.25rem; }
-
 .fs-3 { font-size: 1.5rem; }
-
 .fs-4 { font-size: 1.75rem; }
-
 .fs-5 { font-size: 2rem; }
-
 .fs-6 { font-size: 2.5rem; }
 
 /* font-style */
-
 .fs-italic { font-style: italic; }
-
 .fs-normal { font-style: normal; }
-
 .fs-oblique { font-style: oblique; }
 
 
@@ -53,15 +44,9 @@
 .fw-900 { font-weight: 900; }
 
 /* line-height */
-
 .lh-1 { line-height: 1; }
-
 .lh-2 { line-height: 1.1; }
-
 .lh-3 { line-height: 1.25; }
-
 .lh-4 { line-height: 1.5; }
-
 .lh-5 { line-height: 1.75; }
-
 .lh-6 { line-height: 2; }

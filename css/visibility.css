@@ -1,7 +1,5 @@
 /* visibility.css */
 
 .v-collapse { visibility: collapse; }
-
 .v-hidden { visibility: hidden; }
-
 .v-visible { visibility: visible; }

@@ -1,5 +1,10 @@
 /* color.css */
 
-.c-white {color: #fff;}
+/* background-color */
 .bg-white {background-color: #fff;}
 .bg-transparent {background-color: transparent;}
+
+/* color */
+.c-white {color: #fff;}
+.c-inherit {color: inherit;}
+

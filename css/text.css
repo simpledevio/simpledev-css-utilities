@@ -24,6 +24,15 @@
 
 
 
+/* text-decoration-style */
+.tds-dashed { text-decoration-style: dashed; }
+.tds-dotted { text-decoration-style: dotted; }
+.tds-double { text-decoration-style: double; }
+.tds-solid { text-decoration-style: solid; }
+.tds-wavy { text-decoration-style: wavy; }
+
+
+
 /* text-transform */
 .tt-capitalize { text-transform: capitalize; }
 .tt-lowercase { text-transform: lowercase; }

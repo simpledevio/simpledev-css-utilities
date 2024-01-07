@@ -1,38 +1,34 @@
 /* _breakpoint-md.css */
 
 @media (min-width: 768px) {
-  .d-block-md { display: block !important; }
-  .d-flex-md { display: flex !important; }
-  .d-grid-md { display: grid !important; }
+.d-block-md { display: block !important; }
+.d-flex-md { display: flex !important; }
+.d-grid-md { display: grid !important; }
 
-  .d-inline-md { display: inline !important; }
-  .d-inline-block-md { display: inline-block !important; }
-  .d-inline-flex-md { display: inline-flex !important; }
-  .d-inline-grid-md { display: inline-grid !important; }
+.d-inline-md { display: inline !important; }
+.d-inline-block-md { display: inline-block !important; }
+.d-inline-flex-md { display: inline-flex !important; }
+.d-inline-grid-md { display: inline-grid !important; }
 
-  .d-none-md { display: none !important; }
-  .d-table-md { display: table !important; }
-  .d-table-cell-md { display: table-cell !important; }
-  .d-table-row-md { display: table-row !important; }
+.d-none-md { display: none !important; }
+.d-table-md { display: table !important; }
+.d-table-cell-md { display: table-cell !important; }
+.d-table-row-md { display: table-row !important; }
 
 
 
-  /* flex.css */
+/* flex.css */
 
 /* flex-wrap */
 .fw-nowrap-md { flex-wrap: nowrap !important; }
 .fw-wrap-md { flex-wrap: wrap !important; }
 .fw-wrap-reverse-md { flex-wrap: wrap-reverse !important; }
 
-
-
 /* flex-direction */
 .fd-row-md { flex-direction: row !important; }
 .fd-row-reverse-md { flex-direction: row-reverse !important; }
 .fd-column-md { flex-direction: column !important; }
 .fd-column-reverse-md -md{ flex-direction: column-reverse !important; }
-
-
 
 /* align-content */
 .ac-center-md { align-content: center !important; }
@@ -43,16 +39,12 @@
 .ac-space-evenly-md { align-content: space-evenly !important; }
 .ac-stretch-md { align-content: stretch !important; }
 
-
-
 /* align-items */
 .ai-baseline-md { align-items: baseline !important; }
 .ai-center-md { align-items: center !important; }
 .ai-flex-start-md { align-items: flex-start !important; }
 .ai-flex-end-md { align-items: flex-end !important; }
 .ai-stretch-md { align-items: stretch !important; }
-
-
 
 /* align-self */
 .as-auto-md { align-self: auto !important; }
@@ -61,8 +53,6 @@
 .as-flex-end-md { align-self: flex-end !important; }
 .as-flex-start-md { align-self: flex-start !important; }
 .as-stretch-md { align-self: stretch !important; }
-
-
 
 /* justify-content */
 .jc-center-md { justify-content: center !important; }
@@ -117,8 +107,6 @@
 .mbe-0-md {margin-block-end: 0 !important}
 .mbs-0-md {margin-block-start: 0 !important}
 
-
-
 /* 1 */
 .m-1-md {margin: 0.25rem !important}
 
@@ -134,8 +122,6 @@
 .mbl-1-md {margin-block: 0.25rem !important}
 .mbe-1-md {margin-block-end: 0.25rem !important}
 .mbs-1-md {margin-block-start: 0.25rem !important}
-
-
 
 /* 2 */
 .m-2-md {margin: 0.5rem !important}
@@ -153,8 +139,6 @@
 .mbe-2-md {margin-block-end: 0.5rem !important}
 .mbs-2-md {margin-block-start: 0.5rem !important}
 
-
-
 /* 3 */
 .m-3-md {margin: 1rem !important}
 
@@ -171,8 +155,6 @@
 .mbe-3-md {margin-block-end: 1rem !important}
 .mbs-3-md {margin-block-start: 1rem !important}
 
-
-
 /* 4 */
 .m-4-md {margin: 1.5rem !important}
 
@@ -188,8 +170,6 @@
 .mbl-4-md {margin-block: 1.5rem !important}
 .mbe-4-md {margin-block-end: 1.5rem !important}
 .mbs-4-md {margin-block-start: 1.5rem !important}
-
-
 
 /* 5 */
 .m-5-md {margin: 3rem !important}
@@ -226,8 +206,6 @@
 .pbe-0-md {padding-block-end: 0 !important;}
 .pbs-0-md {padding-block-start: 0 !important;}
 
-
-
 /* 1 */
 .p-1-md {padding: 0.25rem !important}
 
@@ -243,8 +221,6 @@
 .pbl-1-md {padding-block: 0.25rem !important}
 .pbe-1-md {padding-block-end: 0.25rem !important}
 .pbs-1-md {padding-block-start: 0.25rem !important}
-
-
 
 /* 2 */
 .p-2-md {padding: 0.5rem !important}
@@ -262,8 +238,6 @@
 .pbe-2-md {padding-block-end: 0.5rem !important}
 .pbs-2-md {padding-block-start: 0.5rem !important}
 
-
-
 /* 3 */
 .p-3-md {padding: 1rem !important}
 
@@ -280,8 +254,6 @@
 .pbe-3-md {padding-block-end: 1rem !important}
 .pbs-3-md {padding-block-start: 1rem !important}
 
-
-
 /* 4 */
 .p-4-md {padding: 1.5rem !important}
 
@@ -297,8 +269,6 @@
 .pbl-4-md {padding-block: 1.5rem !important}
 .pbe-4-md {padding-block-end: 1.5rem !important}
 .pbs-4-md {padding-block-start: 1.5rem !important}
-
-
 
 /* 5 */
 .p-5-md {padding: 3rem !important}

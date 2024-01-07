@@ -5,27 +5,15 @@
 .lsp-outside { list-style-position: outside; }
 
 /* list-style-type */
-
 .lst-circle { list-style-type: circle; }
-
 .lst-decimal { list-style-type: decimal; }
-
 .lst-decimal-leading-zero { list-style-type: decimal-leading-zero; }
-
 .lst-disc { list-style-type: disc; }
-
 .lst-georgian { list-style-type: georgian; }
-
 .lst-lower-alpha { list-style-type: lower-alpha; }
-
 .lst-lower-greek { list-style-type: lower-greek; }
-
 .lst-lower-roman { list-style-type: lower-roman; }
-
 .lst-none { list-style-type: none; }
-
 .lst-square { list-style-type: square; }
-
 .lst-upper-alpha { list-style-type: upper-alpha; }
-
 .lst-upper-roman { list-style-type: upper-roman; }

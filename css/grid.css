@@ -2,29 +2,19 @@
 
 /* Justify Items Utilities with 'ji-' Prefix */
 .ji-auto { justify-items: auto; }
-
 .ji-center { justify-items: center; }
-
 .ji-end { justify-items: end; }
-
 .ji-flex-end { justify-items: flex-end; }
-
 .ji-start { justify-items: start; }
-
 .ji-flex-start { justify-items: flex-start; }
-
 .ji-stretch { justify-items: stretch; }
 
 
 
 /* Justify Self Utilities with 'js-' Prefix */
 .js-auto { justify-self: auto; }
-
 .js-center { justify-self: center; }
-
 .js-end { justify-self: end; }
-
 .js-start { justify-self: start; }
-
 .js-stretch { justify-self: stretch; }
 

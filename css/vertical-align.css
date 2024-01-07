@@ -1,17 +1,10 @@
 /* vertical-align.css */
 
 .va-baseline { vertical-align: baseline; }
-
 .va-bottom { vertical-align: bottom; }
-
 .va-middle { vertical-align: middle; }
-
 .va-sub { vertical-align: sub; }
-
 .va-super { vertical-align: super; }
-
 .va-text-bottom { vertical-align: text-bottom; }
-
 .va-text-top { vertical-align: text-top; }
-
 .va-top { vertical-align: top; }

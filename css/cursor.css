@@ -20,27 +20,11 @@
 
 .c-help { cursor: help; }
 
-.c-e-resize { cursor: e-resize; }
-
-.c-ew-resize { cursor: ew-resize; }
-
 .c-grab { cursor: grab; }
 
 .c-grabbing { cursor: grabbing; }
 
 .c-move { cursor: move; }
-
-.c-n-resize { cursor: n-resize; }
-
-.c-ne-resize { cursor: ne-resize; }
-
-.c-nesw-resize { cursor: nesw-resize; }
-
-.c-ns-resize { cursor: ns-resize; }
-
-.c-nw-resize { cursor: nw-resize; }
-
-.c-nwse-resize { cursor: nwse-resize; }
 
 .c-no-drop { cursor: no-drop; }
 
@@ -52,20 +36,27 @@
 
 .c-row-resize { cursor: row-resize; }
 
-.c-s-resize { cursor: s-resize; }
-
-.c-se-resize { cursor: se-resize; }
-
-.c-sw-resize { cursor: sw-resize; }
-
 .c-text { cursor: text; }
 
 .c-vertical-text { cursor: vertical-text; }
 
-.c-w-resize { cursor: w-resize; }
-
 .c-wait { cursor: wait; }
 
 .c-zoom-in { cursor: zoom-in; }
-
 .c-zoom-out { cursor: zoom-out; }
+
+.c-n-resize { cursor: n-resize; }
+.c-ne-resize { cursor: ne-resize; }
+.c-nesw-resize { cursor: nesw-resize; }
+.c-ns-resize { cursor: ns-resize; }
+.c-nw-resize { cursor: nw-resize; }
+.c-nwse-resize { cursor: nwse-resize; }
+
+.c-s-resize { cursor: s-resize; }
+.c-se-resize { cursor: se-resize; }
+.c-sw-resize { cursor: sw-resize; }
+
+.c-e-resize { cursor: e-resize; }
+.c-ew-resize { cursor: ew-resize; }
+
+.c-w-resize { cursor: w-resize; }

@@ -1,39 +1,37 @@
 /* fonts.css */
 
 /* font-size */
-.fs-1 { font-size: 1rem; }
-.fs-2 { font-size: 1.25rem; }
-.fs-3 { font-size: 1.5rem; }
-.fs-4 { font-size: 1.75rem; }
-.fs-5 { font-size: 2rem; }
-.fs-6 { font-size: 2.5rem; }
+.fs-0 { font-size: 1rem !important; }
+.fs-1 { font-size: 1.25rem !important; }
+.fs-2 { font-size: 1.5rem !important; }
+.fs-3 { font-size: 1.75rem !important; }
+.fs-4 { font-size: 2rem !important; }
+.fs-5 { font-size: 2.5rem !important; }
 
 /* font-style */
-.fs-italic { font-style: italic; }
-.fs-normal { font-style: normal; }
-.fs-oblique { font-style: oblique; }
-
-
+.fs-italic { font-style: italic !important; }
+.fs-normal { font-style: normal !important; }
+.fs-oblique { font-style: oblique !important; }
 
 /* font-weight */
-.fw-bold { font-weight: bold; }
-.fw-bolder { font-weight: bolder; }
-.fw-lighter { font-weight: lighter; }
-.fw-normal { font-weight: normal; }
-.fw-100 { font-weight: 100; }
-.fw-200 { font-weight: 200; }
-.fw-300 { font-weight: 300; }
-.fw-400 { font-weight: 400; }
-.fw-500 { font-weight: 500; }
-.fw-600 { font-weight: 600; }
-.fw-700 { font-weight: 700; }
-.fw-800 { font-weight: 800; }
-.fw-900 { font-weight: 900; }
+.fw-bold { font-weight: bold !important; }
+.fw-bolder { font-weight: bolder !important; }
+.fw-lighter { font-weight: lighter !important; }
+.fw-normal { font-weight: normal !important; }
+.fw-100 { font-weight: 100 !important; }
+.fw-200 { font-weight: 200 !important; }
+.fw-300 { font-weight: 300 !important; }
+.fw-400 { font-weight: 400 !important; }
+.fw-500 { font-weight: 500 !important; }
+.fw-600 { font-weight: 600 !important; }
+.fw-700 { font-weight: 700 !important; }
+.fw-800 { font-weight: 800 !important; }
+.fw-900 { font-weight: 900 !important; }
 
 /* line-height */
-.lh-1 { line-height: 1; }
-.lh-2 { line-height: 1.1; }
-.lh-3 { line-height: 1.25; }
-.lh-4 { line-height: 1.5; }
-.lh-5 { line-height: 1.75; }
-.lh-6 { line-height: 2; }
+.lh-0 { line-height: 1 !important; }
+.lh-1 { line-height: 1.1 !important; }
+.lh-2 { line-height: 1.25 !important; }
+.lh-3 { line-height: 1.5 !important; }
+.lh-4 { line-height: 1.75 !important; }
+.lh-5 { line-height: 2 !important; }

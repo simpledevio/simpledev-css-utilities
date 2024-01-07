@@ -1,23 +1,19 @@
 /* overflow.css */
 
 /* overflow */
-.o-visible { overflow: visible; }
-.o-hidden { overflow: hidden; }
-.o-scroll { overflow: scroll; }
-.o-auto { overflow: auto; }
-
-
+.o-visible { overflow: visible !important; }
+.o-hidden { overflow: hidden !important; }
+.o-scroll { overflow: scroll !important; }
+.o-auto { overflow: auto !important; }
 
 /* overflow-x */
-.ox-visible { overflow-x: visible; }
-.ox-hidden { overflow-x: hidden; }
-.ox-scroll { overflow-x: scroll; }
-.ox-auto { overflow-x: auto; }
-
-
+.ox-visible { overflow-x: visible !important; }
+.ox-hidden { overflow-x: hidden !important; }
+.ox-scroll { overflow-x: scroll !important; }
+.ox-auto { overflow-x: auto !important; }
 
 /* overflow-y */
-.oy-visible { overflow-y: visible; }
-.oy-hidden { overflow-y: hidden; }
-.oy-scroll { overflow-y: scroll; }
-.oy-auto { overflow-y: auto; }
+.oy-visible { overflow-y: visible !important; }
+.oy-hidden { overflow-y: hidden !important; }
+.oy-scroll { overflow-y: scroll !important; }
+.oy-auto { overflow-y: auto !important; }

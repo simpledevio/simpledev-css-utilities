@@ -1,10 +1,9 @@
 /* color.css */
 
 /* background-color */
-.bg-white {background-color: #fff;}
-.bg-transparent {background-color: transparent;}
+.bg-white {background-color: #fff !important;}
+.bg-transparent {background-color: transparent !important;}
 
 /* color */
-.c-white {color: #fff;}
-.c-inherit {color: inherit;}
-
+.c-white {color: #fff !important;}
+.c-inherit {color: inherit !important;}

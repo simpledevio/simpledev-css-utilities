@@ -1,20 +1,17 @@
 /* grid.css */
 
-/* Justify Items Utilities with 'ji-' Prefix */
-.ji-auto { justify-items: auto; }
-.ji-center { justify-items: center; }
-.ji-end { justify-items: end; }
-.ji-flex-end { justify-items: flex-end; }
-.ji-start { justify-items: start; }
-.ji-flex-start { justify-items: flex-start; }
-.ji-stretch { justify-items: stretch; }
+/* justify-items */
+.ji-auto { justify-items: auto !important; }
+.ji-center { justify-items: center !important; }
+.ji-end { justify-items: end !important; }
+.ji-flex-end { justify-items: flex-end !important; }
+.ji-start { justify-items: start !important; }
+.ji-flex-start { justify-items: flex-start !important; }
+.ji-stretch { justify-items: stretch !important; }
 
-
-
-/* Justify Self Utilities with 'js-' Prefix */
-.js-auto { justify-self: auto; }
-.js-center { justify-self: center; }
-.js-end { justify-self: end; }
-.js-start { justify-self: start; }
-.js-stretch { justify-self: stretch; }
-
+/* justify-self */
+.js-auto { justify-self: auto !important; }
+.js-center { justify-self: center !important; }
+.js-end { justify-self: end !important; }
+.js-start { justify-self: start !important; }
+.js-stretch { justify-self: stretch !important; }

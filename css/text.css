@@ -1,40 +1,40 @@
 /* text.css */
 
 /* scroll-behavior */
-.sb-auto { scroll-behavior: auto; }
-.sb-smooth { scroll-behavior: smooth; }
+.sb-auto { scroll-behavior: auto !important; }
+.sb-smooth { scroll-behavior: smooth !important; }
 
 
 
 /* text-align */
-.ta-center { text-align: center; }
-.ta-end { text-align: end; }
-.ta-justify { text-align: justify; }
-.ta-left { text-align: left; }
-.ta-right { text-align: right; }
-.ta-start { text-align: start; }
+.ta-center { text-align: center !important; }
+.ta-end { text-align: end !important; }
+.ta-justify { text-align: justify !important; }
+.ta-left { text-align: left !important; }
+.ta-right { text-align: right !important; }
+.ta-start { text-align: start !important; }
 
 
 
 /* text-decoration-line */
-.tdl-line-through { text-decoration-line: line-through; }
-.tdl-none { text-decoration-line: none; }
-.tdl-overline { text-decoration-line: overline; }
-.tdl-underline { text-decoration-line: underline; }
+.tdl-line-through { text-decoration-line: line-through !important; }
+.tdl-none { text-decoration-line: none !important; }
+.tdl-overline { text-decoration-line: overline !important; }
+.tdl-underline { text-decoration-line: underline !important; }
 
 
 
 /* text-decoration-style */
-.tds-dashed { text-decoration-style: dashed; }
-.tds-dotted { text-decoration-style: dotted; }
-.tds-double { text-decoration-style: double; }
-.tds-solid { text-decoration-style: solid; }
-.tds-wavy { text-decoration-style: wavy; }
+.tds-dashed { text-decoration-style: dashed !important; }
+.tds-dotted { text-decoration-style: dotted !important; }
+.tds-double { text-decoration-style: double !important; }
+.tds-solid { text-decoration-style: solid !important; }
+.tds-wavy { text-decoration-style: wavy !important; }
 
 
 
 /* text-transform */
-.tt-capitalize { text-transform: capitalize; }
-.tt-lowercase { text-transform: lowercase; }
-.tt-none { text-transform: none; }
-.tt-uppercase { text-transform: uppercase; }
+.tt-capitalize { text-transform: capitalize !important; }
+.tt-lowercase { text-transform: lowercase !important; }
+.tt-none { text-transform: none !important; }
+.tt-uppercase { text-transform: uppercase !important; }

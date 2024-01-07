@@ -1,62 +1,42 @@
 /* cursor.css */
 
-.c-alias { cursor: alias; }
+.c-alias { cursor: alias !important; }
+.c-all-scroll { cursor: all-scroll !important; }
+.c-auto { cursor: auto !important; }
+.c-cell { cursor: cell !important; }
+.c-col-resize { cursor: col-resize !important; }
+.c-context-menu { cursor: context-menu !important; }
+.c-copy { cursor: copy !important; }
+.c-crosshair { cursor: crosshair !important; }
+.c-default { cursor: default !important; }
+.c-help { cursor: help !important; }
+.c-grab { cursor: grab !important; }
+.c-grabbing { cursor: grabbing !important; }
+.c-move { cursor: move !important; }
+.c-no-drop { cursor: no-drop !important; }
+.c-not-allowed { cursor: not-allowed !important; }
+.c-pointer { cursor: pointer !important; }
+.c-progress { cursor: progress !important; }
+.c-row-resize { cursor: row-resize !important; }
+.c-text { cursor: text !important; }
+.c-vertical-text { cursor: vertical-text !important; }
+.c-wait { cursor: wait !important; }
 
-.c-all-scroll { cursor: all-scroll; }
+.c-zoom-in { cursor: zoom-in !important; }
+.c-zoom-out { cursor: zoom-out !important; }
 
-.c-auto { cursor: auto; }
+.c-n-resize { cursor: n-resize !important; }
+.c-ne-resize { cursor: ne-resize !important; }
+.c-nesw-resize { cursor: nesw-resize !important; }
+.c-ns-resize { cursor: ns-resize !important; }
+.c-nw-resize { cursor: nw-resize !important; }
+.c-nwse-resize { cursor: nwse-resize !important; }
 
-.c-cell { cursor: cell; }
+.c-s-resize { cursor: s-resize !important; }
+.c-se-resize { cursor: se-resize !important; }
+.c-sw-resize { cursor: sw-resize !important; }
 
-.c-col-resize { cursor: col-resize; }
+.c-e-resize { cursor: e-resize !important; }
+.c-ew-resize { cursor: ew-resize !important; }
 
-.c-context-menu { cursor: context-menu; }
-
-.c-copy { cursor: copy; }
-
-.c-crosshair { cursor: crosshair; }
-
-.c-default { cursor: default; }
-
-.c-help { cursor: help; }
-
-.c-grab { cursor: grab; }
-
-.c-grabbing { cursor: grabbing; }
-
-.c-move { cursor: move; }
-
-.c-no-drop { cursor: no-drop; }
-
-.c-not-allowed { cursor: not-allowed; }
-
-.c-pointer { cursor: pointer; }
-
-.c-progress { cursor: progress; }
-
-.c-row-resize { cursor: row-resize; }
-
-.c-text { cursor: text; }
-
-.c-vertical-text { cursor: vertical-text; }
-
-.c-wait { cursor: wait; }
-
-.c-zoom-in { cursor: zoom-in; }
-.c-zoom-out { cursor: zoom-out; }
-
-.c-n-resize { cursor: n-resize; }
-.c-ne-resize { cursor: ne-resize; }
-.c-nesw-resize { cursor: nesw-resize; }
-.c-ns-resize { cursor: ns-resize; }
-.c-nw-resize { cursor: nw-resize; }
-.c-nwse-resize { cursor: nwse-resize; }
-
-.c-s-resize { cursor: s-resize; }
-.c-se-resize { cursor: se-resize; }
-.c-sw-resize { cursor: sw-resize; }
-
-.c-e-resize { cursor: e-resize; }
-.c-ew-resize { cursor: ew-resize; }
-
-.c-w-resize { cursor: w-resize; }
+.c-w-resize { cursor: w-resize !important; }

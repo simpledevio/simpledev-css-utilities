@@ -1,12 +1,12 @@
 /* float.css */
 
 /* clear */
-.c-both { clear: both; }
-.c-left { clear: left; }
-.c-none { clear: none; }
-.c-right { clear: right; }
+.c-both { clear: both !important; }
+.c-left { clear: left !important; }
+.c-none { clear: none !important; }
+.c-right { clear: right !important; }
 
 /* float */
-.f-left { float: left; }
-.f-none { float: none; }
-.f-right { float: right; }
+.f-left { float: left !important; }
+.f-none { float: none !important; }
+.f-right { float: right !important; }

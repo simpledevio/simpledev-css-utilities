@@ -1,24 +1,24 @@
 /* position.css */
 
 /* position */
-.p-absolute { position: absolute; }
-.p-fixed { position: fixed; }
-.p-relative { position: relative; }
-.p-static { position: static; }
-.p-sticky { position: sticky; }
+.p-absolute { position: absolute !important; }
+.p-fixed { position: fixed !important; }
+.p-relative { position: relative !important; }
+.p-static { position: static !important; }
+.p-sticky { position: sticky !important; }
 
 /* other */
-.t-0 {top: 0;}
-.b-0 {bottom: 0;}
-.r-0 {right: 0;}
-.l-0 {left: 0;}
+.t-0 {top: 0 !important;}
+.b-0 {bottom: 0 !important;}
+.r-0 {right: 0 !important;}
+.l-0 {left: 0 !important;}
 
 /* z-index */
-.zi-auto {z-index: auto;}
-.zi-0 {z-index: 0;}
-.zi-1 {z-index: 1;}
-.zi-2 {z-index: 2;}
-.zi-3 {z-index: 3;}
-.zi-4 {z-index: 4;}
-.zi-5 {z-index: 5;}
-.zi-max {z-index: 2147483647;}
+.zi-auto {z-index: auto !important;}
+.zi-0 {z-index: 0 !important;}
+.zi-1 {z-index: 1 !important;}
+.zi-2 {z-index: 2 !important;}
+.zi-3 {z-index: 3 !important;}
+.zi-4 {z-index: 4 !important;}
+.zi-5 {z-index: 5 !important;}
+.zi-max {z-index: 2147483647 !important;}

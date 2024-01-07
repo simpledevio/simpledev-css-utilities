@@ -1,17 +1,17 @@
 /* _breakpoint-lg.css */
 
 @media (min-width: 992px) {
-  .d-block-lg { display: block; }
-  .d-flex-lg { display: flex; }
-  .d-grid-lg { display: grid; }
+  .d-block-lg { display: block !important; }
+  .d-flex-lg { display: flex !important; }
+  .d-grid-lg { display: grid !important; }
 
-  .d-inline-lg { display: inline; }
-  .d-inline-block-lg { display: inline-block; }
-  .d-inline-flex-lg { display: inline-flex; }
-  .d-inline-grid-lg { display: inline-grid; }
+  .d-inline-lg { display: inline !important; }
+  .d-inline-block-lg { display: inline-block !important; }
+  .d-inline-flex-lg { display: inline-flex !important; }
+  .d-inline-grid-lg { display: inline-grid !important; }
 
-  .d-none-lg { display: none; }
-  .d-table-lg { display: table; }
-  .d-table-cell-lg { display: table-cell; }
-  .d-table-row-lg { display: table-row; }
+  .d-none-lg { display: none !important; }
+  .d-table-lg { display: table !important; }
+  .d-table-cell-lg { display: table-cell !important; }
+  .d-table-row-lg { display: table-row !important; }
 }

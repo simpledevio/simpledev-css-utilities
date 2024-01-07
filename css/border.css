@@ -1,67 +1,67 @@
 /* border.css */
 
 /* box-sizing */
-.bs-border-box {box-sizing: border-box;}
-.bs-content-box {box-sizing: content-box;}
+.bs-border-box {box-sizing: border-box !important;}
+.bs-content-box {box-sizing: content-box !important;}
 
 /* border-radius */
-.br-0 {border-radius: 0;}
-.br-1 {border-radius: 0.25rem;}
-.br-2 {border-radius: 0.375rem;}
-.br-3 {border-radius: 0.5rem;}
-.br-4 {border-radius: 0.75rem;}
-.br-5 {border-radius: 1rem;}
-.br-max {border-radius: 9999px;}
+.br-0 {border-radius: 0 !important;}
+.br-1 {border-radius: 0.25rem !important;}
+.br-2 {border-radius: 0.375rem !important;}
+.br-3 {border-radius: 0.5rem !important;}
+.br-4 {border-radius: 0.75rem !important;}
+.br-5 {border-radius: 1rem !important;}
+.br-max {border-radius: 9999px !important;}
 
 /* border-style */
-.bs-dashed { border-style: dashed; }
-.bs-dotted { border-style: dotted; }
-.bs-double { border-style: double; }
-.bs-groove { border-style: groove; }
-.bs-hidden { border-style: hidden; }
-.bs-inset { border-style: inset; }
-.bs-none { border-style: none; }
-.bs-outset { border-style: outset; }
-.bs-ridge { border-style: ridge; }
-.bs-solid { border-style: solid; }
+.bs-dashed { border-style: dashed !important; }
+.bs-dotted { border-style: dotted !important; }
+.bs-double { border-style: double !important; }
+.bs-groove { border-style: groove !important; }
+.bs-hidden { border-style: hidden !important; }
+.bs-inset { border-style: inset !important; }
+.bs-none { border-style: none !important; }
+.bs-outset { border-style: outset !important; }
+.bs-ridge { border-style: ridge !important; }
+.bs-solid { border-style: solid !important; }
 
 /* border-width */
-.bw-0 { border-width: 0; }
-.bw-1 { border-width: 1px; }
-.bw-2 { border-width: 2px; }
-.bw-3 { border-width: 4px; }
-.bw-4 { border-width: 6px; }
-.bw-5 { border-width: 8px; }
-.bw-6 { border-width: 10px; }
+.bw-0 { border-width: 0 !important; }
+.bw-1 { border-width: 1px !important; }
+.bw-2 { border-width: 2px !important; }
+.bw-3 { border-width: 4px !important; }
+.bw-4 { border-width: 6px !important; }
+.bw-5 { border-width: 8px !important; }
+/* .bw-6 { border-width: 10px !important; } */
 
-.btw-0 { border-top-width: 0; }
-.btw-1 { border-top-width: 1px; }
-.btw-2 { border-top-width: 2px; }
-.btw-3 { border-top-width: 4px; }
-.btw-4 { border-top-width: 6px; }
-.btw-5 { border-top-width: 8px; }
-.btw-6 { border-top-width: 10px; }
+.btw-0 { border-top-width: 0 !important; }
+.btw-1 { border-top-width: 1px !important; }
+.btw-2 { border-top-width: 2px !important; }
+.btw-3 { border-top-width: 4px !important; }
+.btw-4 { border-top-width: 6px !important; }
+.btw-5 { border-top-width: 8px !important; }
+/* .btw-6 { border-top-width: 10px !important; } */
 
-.brw-0 { border-right-width: 0; }
-.brw-1 { border-right-width: 1px; }
-.brw-2 { border-right-width: 2px; }
-.brw-3 { border-right-width: 4px; }
-.brw-4 { border-right-width: 6px; }
-.brw-5 { border-right-width: 8px; }
-.brw-6 { border-right-width: 10px; }
+.brw-0 { border-right-width: 0 !important; }
+.brw-1 { border-right-width: 1px !important; }
+.brw-2 { border-right-width: 2px !important; }
+.brw-3 { border-right-width: 4px !important; }
+.brw-4 { border-right-width: 6px !important; }
+.brw-5 { border-right-width: 8px !important; }
+/* .brw-6 { border-right-width: 10px !important; } */
 
-.bbw-0 { border-bottom-width: 0; }
-.bbw-1 { border-bottom-width: 1px; }
-.bbw-2 { border-bottom-width: 2px; }
-.bbw-3 { border-bottom-width: 4px; }
-.bbw-4 { border-bottom-width: 6px; }
-.bbw-5 { border-bottom-width: 8px; }
-.bbw-6 { border-bottom-width: 10px; }
+.bbw-0 { border-bottom-width: 0 !important; }
+.bbw-1 { border-bottom-width: 1px !important; }
+.bbw-2 { border-bottom-width: 2px !important; }
+.bbw-3 { border-bottom-width: 4px !important; }
+.bbw-4 { border-bottom-width: 6px !important; }
+.bbw-5 { border-bottom-width: 8px !important; }
+/* .bbw-6 { border-bottom-width: 10px !important; } */
 
-.blw-0 { border-left-width: 0; }
-.blw-1 { border-left-width: 1px; }
-.blw-2 { border-left-width: 2px; }
-.blw-3 { border-left-width: 4px; }
-.blw-4 { border-left-width: 6px; }
-.blw-5 { border-left-width: 8px; }
-.blw-6 { border-left-width: 10px; }
+.blw-0 { border-left-width: 0 !important; }
+.blw-1 { border-left-width: 1px !important; }
+.blw-2 { border-left-width: 2px !important; }
+.blw-3 { border-left-width: 4px !important; }
+.blw-4 { border-left-width: 6px !important; }
+.blw-5 { border-left-width: 8px !important; }
+/* .blw-6 { border-left-width: 10px !important; } */

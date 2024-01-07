@@ -1,17 +1,17 @@
 /* _breakpoint-md.css */
 
 @media (min-width: 768px) {
-  .d-block-md { display: block; }
-  .d-flex-md { display: flex; }
-  .d-grid-md { display: grid; }
+  .d-block-md { display: block !important; }
+  .d-flex-md { display: flex !important; }
+  .d-grid-md { display: grid !important; }
 
-  .d-inline-md { display: inline; }
-  .d-inline-block-md { display: inline-block; }
-  .d-inline-flex-md { display: inline-flex; }
-  .d-inline-grid-md { display: inline-grid; }
+  .d-inline-md { display: inline !important; }
+  .d-inline-block-md { display: inline-block !important; }
+  .d-inline-flex-md { display: inline-flex !important; }
+  .d-inline-grid-md { display: inline-grid !important; }
 
-  .d-none-md { display: none; }
-  .d-table-md { display: table; }
-  .d-table-cell-md { display: table-cell; }
-  .d-table-row-md { display: table-row; }
+  .d-none-md { display: none !important; }
+  .d-table-md { display: table !important; }
+  .d-table-cell-md { display: table-cell !important; }
+  .d-table-row-md { display: table-row !important; }
 }

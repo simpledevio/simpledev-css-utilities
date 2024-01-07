@@ -1,7 +1,7 @@
 /* white-space.css */
 
-.ws-normal { white-space: normal; }
-.ws-nowrap { white-space: nowrap; }
-.ws-pre { white-space: pre; }
-.ws-pre-line { white-space: pre-line; }
-.ws-pre-wrap { white-space: pre-wrap; }
+.ws-normal { white-space: normal !important; }
+.ws-nowrap { white-space: nowrap !important; }
+.ws-pre { white-space: pre !important; }
+.ws-pre-line { white-space: pre-line !important; }
+.ws-pre-wrap { white-space: pre-wrap !important; }

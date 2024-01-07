@@ -1,7 +1,7 @@
 /* user-select.css */
 
-.us-all { user-select: all; }
-.us-auto { user-select: auto; }
-.us-contain { user-select: contain; }
-.us-none { user-select: none; }
-.us-text { user-select: text; }
+.us-all { user-select: all !important; }
+.us-auto { user-select: auto !important; }
+.us-contain { user-select: contain !important; }
+.us-none { user-select: none !important; }
+.us-text { user-select: text !important; }

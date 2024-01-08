@@ -10,13 +10,16 @@ This project provides utility classes that can be used alongside simpledev.css o
 
 ## Naming convention
 
-The naming convention for these utility classes is to abbreviate the property and write out the full value and separate the words with dashes. So `display: block;` would become `.d-block`, `font-style: italic;` would become `fs-italic`, and `text-decoration-line: underline;` would become `tdl-underline`.
+The naming convention for these utility classes is to abbreviate the property and then write out the full value. The words are separated with dashes. So `display: block;` would become `.d-block`, `font-style: italic;` would become `fs-italic`, and `text-decoration-line: underline;` would become `tdl-underline`.
+
+For properties that support a range of values, like `font-size` or `line-height`, we use the numbers 0-5 instead of value names. So `font-size` has the classes `fs-0`, `fs-1`, `fs-2`, `fs-3`, `fs-4`, and `fs-5`. For some properties, 0 means the property is actually being set to 0, like for margin and padding, and for others it's just the starting value.
 
 ## Classes
 
-Currently we are focused on creating utility classes for properties that have a finite number of values, like `display`, `position`, `font-style`, and `text-align`.
+Our first goal was to create utility classes for properties that have a finite number of values, like `display`, `position`, `font-style`, and `text-align`.
 
-Here is a full list of properties we support:
+Here is a list of properties in this category:
+
 - align-content
 - align-items
 - align-self
@@ -45,9 +48,15 @@ Here is a full list of properties we support:
 - visibility
 - white-space
 
-Here is a list of properties we support that use numeric values. All of these classes use the numbers 0-5. For example, border-radius has the following classes: br-0, br-1, br-2, br-3, br-4, and br-5.
+### Numeric values
 
-Some classes, like border-radius, also have a max value, so border-radius also has a class called br-max.
+We are starting to add support for properties that use numeric values. All of these classes use the numbers 0-5. For example, border-radius has the following classes: br-0, br-1, br-2, br-3, br-4, and br-5.
+
+Some classes, like border-radius, also have a max value (so border-radius also has a class called br-max).
+
+The margin classes also support the auto keyword.
+
+Here is a list of properties in this category:
 
 - border-radius
 - border-top-right-radius
@@ -90,7 +99,7 @@ Here is a list of classes with responsive variations. Currently we support 3 bre
 
 ## Build command
 
-If you would like to create a custom build, use the following command to run the included bash script that combines all of the files in the `css` folder. You can comment out or delete any files you don't want from the script.
+If you would like to create a custom build, download the repo and use the following command to run the included bash script that combines all of the files in the `css` folder. You can comment out or delete any files you don't want from the script.
 
 ```
 bash combine_css.sh

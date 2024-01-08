@@ -1,5 +1,6 @@
 /* _simpledev-utilities.css */
 
+@import '../css/_variables.css';
 @import '../css/box.css';
 @import '../css/border.css';
 @import '../css/color.css';

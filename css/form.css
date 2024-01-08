@@ -1,0 +1,7 @@
+/* form.css */
+
+/* resize */
+.r-none {resize: none;}
+.r-both {resize: both;}
+.r-horizontal {resize: horizontal;}
+.r-vertical {resize: vertical;}

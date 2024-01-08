@@ -263,6 +263,13 @@
 .lh-3 { line-height: 1.5 !important; }
 .lh-4 { line-height: 1.75 !important; }
 .lh-5 { line-height: 2 !important; }
+/* form.css */
+
+/* resize */
+.r-none {resize: none;}
+.r-both {resize: both;}
+.r-horizontal {resize: horizontal;}
+.r-vertical {resize: vertical;}
 /* grid.css */
 
 /* justify-items */

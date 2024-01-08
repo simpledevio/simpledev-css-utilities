@@ -10,6 +10,7 @@ css_files=(
     "css/flex.css"
     "css/float.css"
     "css/fonts.css"
+    "css/form.css"
     "css/grid.css"
     "css/list.css"
     "css/margin.css"

@@ -31,9 +31,11 @@
 .fd-column-reverse-sm -sm{ flex-direction: column-reverse !important; }
 
 /* align-content */
+.ac-baseline-sm { align-content: baseline !important; }
 .ac-center-sm { align-content: center !important; }
 .ac-flex-end-sm { align-content: flex-end !important; }
 .ac-flex-start-sm { align-content: flex-start !important; }
+.ac-normal-sm { align-content: normal !important; }
 .ac-space-around-sm { align-content: space-around !important; }
 .ac-space-between-sm { align-content: space-between !important; }
 .ac-space-evenly-sm { align-content: space-evenly !important; }

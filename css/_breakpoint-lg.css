@@ -4,13 +4,13 @@
 .d-block-lg { display: block !important; }
 .d-flex-lg { display: flex !important; }
 .d-grid-lg { display: grid !important; }
+.d-none-lg { display: none !important; }
 
 .d-inline-lg { display: inline !important; }
 .d-inline-block-lg { display: inline-block !important; }
 .d-inline-flex-lg { display: inline-flex !important; }
 .d-inline-grid-lg { display: inline-grid !important; }
 
-.d-none-lg { display: none !important; }
 .d-table-lg { display: table !important; }
 .d-table-cell-lg { display: table-cell !important; }
 .d-table-row-lg { display: table-row !important; }
@@ -31,9 +31,11 @@
 .fd-column-reverse-lg -lg{ flex-direction: column-reverse !important; }
 
 /* align-content */
+.ac-baseline-lg { align-content: baseline !important; }
 .ac-center-lg { align-content: center !important; }
 .ac-flex-end-lg { align-content: flex-end !important; }
 .ac-flex-start-lg { align-content: flex-start !important; }
+.ac-normal-lg { align-content: normal !important; }
 .ac-space-around-lg { align-content: space-around !important; }
 .ac-space-between-lg { align-content: space-between !important; }
 .ac-space-evenly-lg { align-content: space-evenly !important; }

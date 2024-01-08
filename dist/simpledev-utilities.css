@@ -263,6 +263,22 @@
 .lh-3 { line-height: 1.5 !important; }
 .lh-4 { line-height: 1.75 !important; }
 .lh-5 { line-height: 2 !important; }
+
+/* letter-spacing */
+.ls-0 {letter-spacing: -0.05em !important;}
+.ls-1 {letter-spacing: -0.025em !important;}
+.ls-2 {letter-spacing: 0 !important;}
+.ls-3 {letter-spacing: 0.025em !important;}
+.ls-4 {letter-spacing: 0.05em !important;}
+.ls-5 {letter-spacing: 0.1em !important;}
+
+/* word-spacing */
+.ws-0 {word-spacing: 0 !important;}
+.ws-1 {word-spacing: 1px !important;}
+.ws-2 {word-spacing: 2px !important;}
+.ws-3 {word-spacing: 4px !important;}
+.ws-4 {word-spacing: 6px !important;}
+.ws-5 {word-spacing: 8px !important;}
 /* form.css */
 
 /* resize */
@@ -607,8 +623,6 @@
 .sb-auto { scroll-behavior: auto !important; }
 .sb-smooth { scroll-behavior: smooth !important; }
 
-
-
 /* text-align */
 .ta-center { text-align: center !important; }
 .ta-end { text-align: end !important; }
@@ -617,15 +631,11 @@
 .ta-right { text-align: right !important; }
 .ta-start { text-align: start !important; }
 
-
-
 /* text-decoration-line */
 .tdl-line-through { text-decoration-line: line-through !important; }
 .tdl-none { text-decoration-line: none !important; }
 .tdl-overline { text-decoration-line: overline !important; }
 .tdl-underline { text-decoration-line: underline !important; }
-
-
 
 /* text-decoration-style */
 .tds-dashed { text-decoration-style: dashed !important; }
@@ -634,7 +644,23 @@
 .tds-solid { text-decoration-style: solid !important; }
 .tds-wavy { text-decoration-style: wavy !important; }
 
+/* text-decoration-thickness */
+.tdt-auto {text-decoration-thickness: auto !important;}
+.tdt-0 {text-decoration-thickness: 0 !important;}
+.tdt-1 {text-decoration-thickness: 1px !important;}
+.tdt-2 {text-decoration-thickness: 2px !important;}
+.tdt-3 {text-decoration-thickness: 4px !important;}
+.tdt-4 {text-decoration-thickness: 6px !important;}
+.tdt-5 {text-decoration-thickness: 8px !important;}
 
+/* text-underline-offset */
+.tuo-auto {text-underline-offset: auto !important;}
+.tuo-0 {text-underline-offset: 0 !important;}
+.tuo-1 {text-underline-offset: 1px !important;}
+.tuo-2 {text-underline-offset: 2px !important;}
+.tuo-3 {text-underline-offset: 4px !important;}
+.tuo-4 {text-underline-offset: 6px !important;}
+.tuo-5 {text-underline-offset: 8px !important;}
 
 /* text-transform */
 .tt-capitalize { text-transform: capitalize !important; }

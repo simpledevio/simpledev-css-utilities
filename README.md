@@ -23,6 +23,12 @@ Here is a list of properties in this category:
 - align-content
 - align-items
 - align-self
+- background-attachment
+- background-clip
+- background-origin
+- background-position
+- background-repeat
+- background-size
 - border-collapse
 - box-sizing
 - caption-side
@@ -69,6 +75,7 @@ Here is a list of properties in this category:
 - border-bottom-width
 - border-left-width
 - font-size
+- letter-spacing
 - line-height
 - margin
 - margin-top
@@ -80,6 +87,9 @@ Here is a list of properties in this category:
 - padding-right
 - padding-bottom
 - padding-left
+- text-decoration-thickness
+- text-underline-offset
+- word-spacing
 - z-index
 
 ### Responsive classes

@@ -1,8 +1,8 @@
 /* color.css */
 
 /* background-color */
-.bg-white {background-color: #fff !important;}
-.bg-transparent {background-color: transparent !important;}
+.bc-white {background-color: #fff !important;}
+.bc-transparent {background-color: transparent !important;}
 
 /* color */
 .c-white {color: #fff !important;}

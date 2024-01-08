@@ -12,9 +12,11 @@
 .fd-column-reverse { flex-direction: column-reverse !important; }
 
 /* align-content */
+.ac-baseline { align-content: baseline !important; }
 .ac-center { align-content: center !important; }
 .ac-flex-end { align-content: flex-end !important; }
 .ac-flex-start { align-content: flex-start !important; }
+.ac-normal { align-content: normal !important; }
 .ac-space-around { align-content: space-around !important; }
 .ac-space-between { align-content: space-between !important; }
 .ac-space-evenly { align-content: space-evenly !important; }

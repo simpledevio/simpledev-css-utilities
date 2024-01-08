@@ -1,5 +1,6 @@
 /* white-space.css */
 
+.ws-break-spaces { white-space: break-spaces !important; }
 .ws-normal { white-space: normal !important; }
 .ws-nowrap { white-space: nowrap !important; }
 .ws-pre { white-space: pre !important; }

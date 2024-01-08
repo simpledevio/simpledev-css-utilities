@@ -115,8 +115,8 @@
 /* color.css */
 
 /* background-color */
-.bg-white {background-color: #fff !important;}
-.bg-transparent {background-color: transparent !important;}
+.bc-white {background-color: #fff !important;}
+.bc-transparent {background-color: transparent !important;}
 
 /* color */
 .c-white {color: #fff !important;}
@@ -192,9 +192,11 @@
 .fd-column-reverse { flex-direction: column-reverse !important; }
 
 /* align-content */
+.ac-baseline { align-content: baseline !important; }
 .ac-center { align-content: center !important; }
 .ac-flex-end { align-content: flex-end !important; }
 .ac-flex-start { align-content: flex-start !important; }
+.ac-normal { align-content: normal !important; }
 .ac-space-around { align-content: space-around !important; }
 .ac-space-between { align-content: space-between !important; }
 .ac-space-evenly { align-content: space-evenly !important; }
@@ -701,6 +703,7 @@
 .v-visible { visibility: visible !important; }
 /* white-space.css */
 
+.ws-break-spaces { white-space: break-spaces !important; }
 .ws-normal { white-space: normal !important; }
 .ws-nowrap { white-space: nowrap !important; }
 .ws-pre { white-space: pre !important; }

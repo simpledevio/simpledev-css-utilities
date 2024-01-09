@@ -14,6 +14,7 @@ css_files=(
     "css/fonts.css"
     "css/form.css"
     "css/grid.css"
+    "css/image.css"
     "css/list.css"
     "css/margin.css"
     "css/overflow.css"

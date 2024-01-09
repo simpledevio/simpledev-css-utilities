@@ -1,12 +1,5 @@
 /* background.css */
 
-/* object-fit */
-.of-contain { object-fit: contain !important; }
-.of-cover { object-fit: cover !important; }
-.of-fill { object-fit: fill !important; }
-.of-none { object-fit: none !important; }
-.of-scale-down { object-fit: scale-down !important; }
-
 /* Background Attachment Utilities with 'ba-' Prefix */
 .ba-fixed { background-attachment: fixed; }
 .ba-local { background-attachment: local; }

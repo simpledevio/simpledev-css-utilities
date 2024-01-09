@@ -1,6 +1,6 @@
 # simpledev.css utilities
 
-This project provides utility classes that can be used alongside simpledev.css or your own projects. The goal is to have a consistent naming convention for all of the classes.
+This project provides utility classes that can be used alongside simpledev.css or your own projects. The goal is to have a consistent naming convention for all of the classes. This project is best suited for making small modifications to your layouts, prototyping, or using it as a learning tool to learn about different CSS properties.
 
 ## Try it
 
@@ -40,6 +40,7 @@ Here is a list of properties in this category:
 - font-weight
 - justify-content
 - list-style-position
+- object-fit
 - overflow
 - overflow-x
 - overflow-y

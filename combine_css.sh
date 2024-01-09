@@ -3,6 +3,7 @@
 # Define an array of CSS file paths
 css_files=(
     "css/_variables.css"
+    "css/background.css"
     "css/border.css"
     "css/box.css"
     "css/color.css"

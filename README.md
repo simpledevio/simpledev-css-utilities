@@ -41,6 +41,7 @@ Here is a list of properties in this category:
 - justify-content
 - list-style-position
 - object-fit
+- object-position
 - overflow
 - overflow-x
 - overflow-y

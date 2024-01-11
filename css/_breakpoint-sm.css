@@ -28,7 +28,15 @@
 .fd-row-sm { flex-direction: row !important; }
 .fd-row-reverse-sm { flex-direction: row-reverse !important; }
 .fd-column-sm { flex-direction: column !important; }
-.fd-column-reverse-sm -sm{ flex-direction: column-reverse !important; }
+.fd-column-reverse-sm { flex-direction: column-reverse !important; }
+
+/* gap */
+.gap-0-sm {gap: var(--space-0);}
+.gap-1-sm {gap: var(--space-1);}
+.gap-2-sm {gap: var(--space-2);}
+.gap-3-sm {gap: var(--space-3);}
+.gap-4-sm {gap: var(--space-4);}
+.gap-5-sm {gap: var(--space-5);}
 
 /* align-content */
 .ac-baseline-sm { align-content: baseline !important; }

@@ -13,27 +13,24 @@
       margin-inline: auto;
       padding-inline: 12px;
     }
-
-    [class*="bw-"] {
-      /* border: solid; */
-    }
-
-    p {
-      /* padding: 16px; */
-      /* margin: 10px; */
-    }
-    </style>
-    <link rel="stylesheet" href="dist/simpledev-utilities.css">
+  </style>
+  <link rel="stylesheet" href="dist/simpledev-utilities.css">
 </head>
 
 <body class="container">
-<h1 class="">simpledev.css utilities demo</h1>
+  <nav>
+    <ul class="lst-none d-flex pl-0 jc-center" style="gap: 8px;">
+      <li><a href="/">Home</a></li>
+      <li><a href="https://github.com/simpledevio/simpledev-css-utilities">GitHub</a></li>
+    </ul>
+  </nav>
+<h1 class="ta-center">simpledev.css utilities demo</h1>
 <p>This page demonstrates some of the classes you can use with simpledev-utilities.css.</p>
 
 <p>We don't have demos for every single property we support, but you can see all of the properties we support by expanding the lists below. Check the <a href="https://github.com/simpledevio/simpledev-css-utilities">GitHub repo</a> for more information.</p>
 
 <details class="bs-solid bw-1 br-1 p-2">
-  <summary class="fw-bold">List of keyword classes</summary>
+  <summary class="fw-bold c-pointer">List of keyword classes</summary>
   <ul class="lh-3">
     <li>align-content</li>
     <li>align-items</li>
@@ -74,7 +71,7 @@
 </details>
 
 <details class="bs-solid bw-1 br-1 p-2 mt-3">
-  <summary class="fw-bold">List of numeric classes</summary>
+  <summary class="fw-bold c-pointer">List of numeric classes</summary>
   <ul class="lh-3">
     <li>border-radius</li>
     <li>border-top-right-radius</li>
@@ -87,6 +84,7 @@
     <li>border-bottom-width</li>
     <li>border-left-width</li>
     <li>font-size</li>
+    <li>gap</li>
     <li>letter-spacing</li>
     <li>line-height</li>
     <li>margin</li>
@@ -107,11 +105,12 @@
 </details>
 
 <details class="bs-solid bw-1 br-1 p-2 mt-3">
-  <summary class="fw-bold">List of responsive classes</summary>
+  <summary class="fw-bold c-pointer">List of responsive classes</summary>
   <ul class="lh-3">
     <li>display</li>
     <li>flex-wrap</li>
     <li>flex-direction</li>
+    <li>gap</li>
     <li>align-content</li>
     <li>align-items</li>
     <li>align-self</li>
@@ -134,7 +133,6 @@
 <p class="bw-1 bs-solid br-4">This is br-4</p>
 <p class="bw-1 bs-solid br-5">This is br-5</p>
 <p class="bw-1 bs-solid br-max">This is br-max</p>
-
 
 <h2>border-style</h2>
 <p class="bw-3 bs-dashed">This is bs-dashed</p>

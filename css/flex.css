@@ -11,6 +11,14 @@
 .fd-column { flex-direction: column !important; }
 .fd-column-reverse { flex-direction: column-reverse !important; }
 
+/* gap */
+.gap-0 {gap: var(--space-0);}
+.gap-1 {gap: var(--space-1);}
+.gap-2 {gap: var(--space-2);}
+.gap-3 {gap: var(--space-3);}
+.gap-4 {gap: var(--space-4);}
+.gap-5 {gap: var(--space-5);}
+
 /* align-content */
 .ac-baseline { align-content: baseline !important; }
 .ac-center { align-content: center !important; }

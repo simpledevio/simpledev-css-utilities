@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Title</title>
+
+  <style>
+    .container {
+      max-width: 900px;
+      margin-inline: auto;
+      padding-inline: 12px;
+    }
+  </style>
+  <link rel="stylesheet" href="dist/simpledev-utilities.css">
+</head>
+
+<body class="container">
+<nav>
+  <ul class="lst-none d-flex pl-0 jc-center" style="gap: 8px;">
+    <li><a href="/">Home</a></li>
+    <li><a href="/border.html">Borders</a></li>
+    <li><a href="/layout.html">Layouts</a></li>
+    <li><a href="https://github.com/simpledevio/simpledev-css-utilities">GitHub</a></li>
+  </ul>
+</nav>
+
+<h1>layout demos</h1>
+
+<h2>display</h2>
+<div>
+  <span class="d-block">This is d-block.</span>
+  <span class="d-block">This is d-block.</span>
+</div>
+<div>
+  <span class="d-inline">This is d-inline.</span>
+  <span class="d-inline">This is d-inline.</span>
+</div>
+<div>
+  <span class="d-inline-block bs-solid pt-5">This is d-inline-block.</span>
+  <span class="d-inline-block bs-solid pb-5">This is d-inline-block.</span>
+</div>
+<div>
+  <span class="d-none">This is d-none.</span>
+  <span class="d-none">This is d-none.</span>
+</div>
+
+<h2>visibility</h2>
+<p class="v-visible">This is v-visible.</p>
+<p class="v-collapse">This is v-collapse.</p>
+<p class="v-hidden">This is v-hidden.</p>
+
+<h2>flex-wrap</h2>
+<ol class="d-flex lsp-inside gap-5 fw-nowrap ox-auto">
+  <li>This is fw-nowrap</li>
+  <li>This is fw-nowrap</li>
+  <li>This is fw-nowrap</li>
+  <li>This is fw-nowrap</li>
+  <li>This is fw-nowrap</li>
+  <li>This is fw-nowrap</li>
+  <li>This is fw-nowrap</li>
+  <li>This is fw-nowrap</li>
+</ol>
+
+<ol class="d-flex lsp-inside gap-5 fw-wrap pt-5 pb-5">
+  <li>This is fw-wrap</li>
+  <li>This is fw-wrap</li>
+  <li>This is fw-wrap</li>
+  <li>This is fw-wrap</li>
+  <li>This is fw-wrap</li>
+  <li>This is fw-wrap</li>
+  <li>This is fw-wrap</li>
+  <li>This is fw-wrap</li>
+</ol>
+
+<ol class="d-flex lsp-inside gap-5 fw-wrap-reverse pt-5 pb-5">
+  <li>This is fw-wrap-reverse</li>
+  <li>This is fw-wrap-reverse</li>
+  <li>This is fw-wrap-reverse</li>
+  <li>This is fw-wrap-reverse</li>
+  <li>This is fw-wrap-reverse</li>
+  <li>This is fw-wrap-reverse</li>
+  <li>This is fw-wrap-reverse</li>
+  <li>This is fw-wrap-reverse</li>
+</ol>
+
+<h2>flex-direction</h2>
+<div>
+  <div class="d-flex fd-row mt-4 gap-2">
+    <span>1 This is fd-row.</span>
+    <span>2 This is fd-row.</span>
+  </div>
+  <div class="d-flex fd-row-reverse mt-4 gap-2">
+    <span>1 This is fd-row-reverse.</span>
+    <span>2 This is fd-row-reverse.</span>
+  </div>
+  <div class="d-flex fd-column mt-4 gap-2">
+    <span>1 This is fd-column.</span>
+    <span>2 This is fd-column.</span>
+  </div>
+  <div class="d-flex fd-column-reverse mt-4 gap-2">
+    <span>1 This is fd-column-reverse.</span>
+    <span>2 This is fd-column-reverse.</span>
+  </div>
+</div>
+
+<h2>gap</h2>
+<div class="d-flex mt-4 gap-0">
+  <span>This is gap-0.</span>
+  <span>This is gap-0.</span>
+</div>
+<div class="d-flex mt-4 gap-1">
+  <span>This is gap-1.</span>
+  <span>This is gap-1.</span>
+</div>
+<div class="d-flex mt-4 gap-2">
+  <span>This is gap-2.</span>
+  <span>This is gap-2.</span>
+</div>
+<div class="d-flex mt-4 gap-3">
+  <span>This is gap-3.</span>
+  <span>This is gap-3.</span>
+</div>
+<div class="d-flex mt-4 gap-4">
+  <span>This is gap-4.</span>
+  <span>This is gap-4.</span>
+</div>
+<div class="d-flex mt-4 gap-5">
+  <span>This is gap-5.</span>
+  <span>This is gap-5.</span>
+</div>
+
+<h2>justify-content</h2>
+<div class="d-flex mt-4 gap-2 jc-center">
+  <span>This is jc-center.</span>
+  <span>This is jc-center.</span>
+</div>
+<div class="d-flex mt-4 gap-2 jc-flex-end">
+  <span>This is jc-flex-end.</span>
+  <span>This is jc-flex-end.</span>
+</div>
+<div class="d-flex mt-4 gap-2 jc-flex-start">
+  <span>This is jc-flex-start.</span>
+  <span>This is jc-flex-start.</span>
+</div>
+<div class="d-flex mt-4 gap-2 jc-normal ">
+  <span>This is jc-normal.</span>
+  <span>This is jc-normal.</span>
+</div>
+<div class="d-flex mt-4 gap-2 jc-space-around">
+  <span>This is jc-space-around.</span>
+  <span>This is jc-space-around.</span>
+</div>
+<div class="d-flex mt-4 gap-2 jc-space-between">
+  <span>This is jc-space-between.</span>
+  <span>This is jc-space-between.</span>
+</div>
+<div class="d-flex mt-4 gap-2 jc-space-evenly">
+  <span>This is jc-space-evenly.</span>
+  <span>This is jc-space-evenly.</span>
+</div>
+<div class="d-flex mt-4 gap-2 jc-stretch">
+  <span>This is jc-stretch.</span>
+  <span>This is jc-stretch.</span>
+</div>
+
+<h2>align-items</h2>
+<div>
+  <div class="d-flex mt-4 gap-2 bw-1 bs-solid ai-center" style="height:80px;">
+    <span class="bs-solid">This is ai-center.</span>
+    <span class="bs-solid">This is ai-center.</span>
+  </div>
+  <div class="d-flex mt-4 gap-2 bw-1 bs-solid ai-baseline" style="height:80px;">
+    <span class="bs-solid">This is ai-baseline.</span>
+    <span class="bs-solid">This is ai-baseline.</span>
+  </div>
+  <div class="d-flex mt-4 gap-2 bw-1 bs-solid ai-flex-start" style="height:80px;">
+    <span class="bs-solid">This is ai-flex-start.</span>
+    <span class="bs-solid">This is ai-flex-start.</span>
+  </div>
+  <div class="d-flex mt-4 gap-2 bw-1 bs-solid ai-flex-end" style="height:80px;">
+    <span class="bs-solid">This is ai-flex-end.</span>
+    <span class="bs-solid">This is ai-flex-end.</span>
+  </div>
+  <div class="d-flex mt-4 gap-2 bw-1 bs-solid ai-stretch" style="height:80px;">
+    <span class="bs-solid">This is ai-stretch.</span>
+    <span class="bs-solid">This is ai-stretch.</span>
+  </div>
+</div>
+
+<h2>align-self</h2>
+<div>
+  <div class="d-flex mt-4 gap-2 bw-1 bs-solid" style="height:80px;">
+    <span class="bs-solid">This has no class.</span>
+    <span class="bs-solid as-auto">This is as-auto.</span>
+  </div>
+  <div class="d-flex mt-4 gap-2 bw-1 bs-solid" style="height:80px;">
+    <span class="bs-solid">This has no class.</span>
+    <span class="bs-solid as-baseline">This is as-baseline.</span>
+  </div>
+  <div class="d-flex mt-4 gap-2 bw-1 bs-solid" style="height:80px;">
+    <span class="bs-solid">This has no class.</span>
+    <span class="bs-solid as-center">This is as-center.</span>
+  </div>
+  <div class="d-flex mt-4 gap-2 bw-1 bs-solid" style="height:80px;">
+    <span class="bs-solid">This has no class.</span>
+    <span class="bs-solid as-flex-end">This is as-flex-end.</span>
+  </div>
+  <div class="d-flex mt-4 gap-2 bw-1 bs-solid" style="height:80px;">
+    <span class="bs-solid">This has no class.</span>
+    <span class="bs-solid as-flex-start">This is as-flex-start.</span>
+  </div>
+  <div class="d-flex mt-4 gap-2 bw-1 bs-solid" style="height:80px;">
+    <span class="bs-solid">This has no class.</span>
+    <span class="bs-solid as-stretch">This is as-stretch.</span>
+  </div>
+</div>
+
+<!-- <h2>align-content</h2>
+<div>
+  <ol class="d-flex lsp-inside gap-5 fw-wrap pt-5 pb-5 bs-solid ac-flex-end" style="min-height: 150px;">
+    <li>This is ac-flex-end</li>
+    <li>This is ac-flex-end</li>
+    <li>This is ac-flex-end</li>
+    <li>This is ac-flex-end</li>
+    <li>This is ac-flex-end</li>
+    <li>This is ac-flex-end</li>
+  </ol>
+</div>
+<div>
+  <ol class="d-flex lsp-inside gap-5 fw-wrap pt-5 pb-5 bs-solid ac-center" style="min-height: 150px;">
+    <li>This is ac-center</li>
+    <li>This is ac-center</li>
+    <li>This is ac-center</li>
+    <li>This is ac-center</li>
+    <li>This is ac-center</li>
+    <li>This is ac-center</li>
+  </ol>
+</div>
+<div>
+  <ol class="d-flex lsp-inside gap-5 fw-wrap pt-5 pb-5 bs-solid ac-center" style="min-height: 150px;">
+    <li>This is ac-center</li>
+    <li>This is ac-center</li>
+    <li>This is ac-center</li>
+    <li>This is ac-center</li>
+    <li>This is ac-center</li>
+    <li>This is ac-center</li>
+  </ol>
+</div> -->
+</body>
+</html>

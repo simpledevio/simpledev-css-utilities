@@ -17,6 +17,7 @@ css_files=(
     "css/image.css"
     "css/list.css"
     "css/margin.css"
+    "css/outline.css"
     "css/overflow.css"
     "css/padding.css"
     "css/position.css"

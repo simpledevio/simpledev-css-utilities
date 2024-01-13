@@ -532,6 +532,35 @@
 .mbl-5 { margin-block: var(--space-5) !important; }
 .mbe-5 { margin-block-end: var(--space-5) !important; }
 .mbs-5 { margin-block-start: var(--space-5) !important; }
+/* outline.css */
+
+/* outline-style */
+.os-auto { outline-style: auto !important;}
+.os-none { outline-style: none !important;}
+.os-dotted { outline-style: dotted !important;}
+.os-dashed { outline-style: dashed !important;}
+.os-solid { outline-style: solid !important;}
+.os-double { outline-style: double !important;}
+.os-groove { outline-style: groove !important;}
+.os-ridge { outline-style: ridge !important;}
+.os-inset { outline-style: inset !important;}
+.os-outset { outline-style: outset !important;}
+
+/* outline-offset */
+.ow-0 { outline-offset: 0 !important; }
+.ow-1 { outline-offset: 1px !important; }
+.ow-2 { outline-offset: 2px !important; }
+.ow-3 { outline-offset: 4px !important; }
+.ow-4 { outline-offset: 6px !important; }
+.ow-5 { outline-offset: 8px !important; }
+
+/* outline-width */
+.ow-0 { outline-width: 0 !important; }
+.ow-1 { outline-width: 1px !important; }
+.ow-2 { outline-width: 2px !important; }
+.ow-3 { outline-width: 4px !important; }
+.ow-4 { outline-width: 6px !important; }
+.ow-5 { outline-width: 8px !important; }
 /* overflow.css */
 
 /* overflow */

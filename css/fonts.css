@@ -1,5 +1,10 @@
 /* fonts.css */
 
+/* font-family */
+.ff-sans-serif { font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important; }
+.ff-serif { font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif !important; }
+.ff-monospace { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important; }
+
 /* font-size */
 .fs-0 { font-size: 1rem !important; }
 .fs-1 { font-size: 1.25rem !important; }

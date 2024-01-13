@@ -1,9 +1,29 @@
 /* color.css */
 
 /* background-color */
-.bc-white { background-color: #fff !important; }
-.bc-transparent { background-color: transparent !important; }
+.bg-white { background-color: #fff !important; }
+.bg-black { background-color: var(--black) !important; }
+.bg-currentcolor { background-color: currentColor !important; }
+.bg-inherit { background-color: inherit !important; }
+.bg-transparent { background-color: transparent !important; }
+
+/* border-color */
+.bc-white { border-color: #fff !important; }
+.bc-black { border-color: var(--black) !important; }
+.bc-currentcolor { border-color: currentColor !important; }
+.bc-inherit { border-color: inherit !important; }
+.bc-transparent { border-color: transparent !important; }
 
 /* color */
 .c-white { color: #fff !important; }
+.c-black { color: var(--black) !important; }
+.c-currentcolor { color: currentColor !important; }
 .c-inherit { color: inherit !important; }
+.c-transparent { color: transparent !important; }
+
+/* outline-color */
+.oc-white { outline-color: #fff !important; }
+.oc-black { outline-color: var(--black) !important; }
+.oc-currentcolor { outline-color: currentColor !important; }
+.oc-inherit { outline-color: inherit !important; }
+.oc-transparent { outline-color: transparent !important; }

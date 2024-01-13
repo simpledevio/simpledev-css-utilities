@@ -48,3 +48,7 @@
 .tt-lowercase { text-transform: lowercase !important; }
 .tt-none { text-transform: none !important; }
 .tt-uppercase { text-transform: uppercase !important; }
+
+/* text-overflow */
+.to-ellipsis { text-overflow: ellipsis !important; }
+.to-clip { text-overflow: clip !important; }

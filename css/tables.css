@@ -7,7 +7,12 @@
 
 
 /* border-spacing */
-.bs-0 { border-spacing: 0 !important; }
+.bsp-0 { border-spacing: 0 !important; }
+.bsp-1 { border-spacing: .125rem !important; }
+.bsp-2 { border-spacing: .25rem !important; }
+.bsp-3 { border-spacing: .5rem !important; }
+.bsp-4 { border-spacing: .75rem !important; }
+.bsp-5 { border-spacing: 1rem !important; }
 
 
 

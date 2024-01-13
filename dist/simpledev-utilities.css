@@ -149,6 +149,14 @@
 /* .blw-6 { border-left-width: 10px !important; } */
 /* box.css */
 
+/* box-shadow */
+.bs-0 { box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05) !important; }
+.bs-1 { box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1) !important; }
+.bs-2 { box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1) !important; }
+.bs-3 { box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1) !important; }
+.bs-4 { box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1) !important; }
+.bs-5 { box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25) !important; }
+
 /* width */
 .w-100 { width: 100% !important; }
 .mw-100 { width: 100% !important; }
@@ -710,7 +718,12 @@
 
 
 /* border-spacing */
-.bs-0 { border-spacing: 0 !important; }
+.bsp-0 { border-spacing: 0 !important; }
+.bsp-1 { border-spacing: .125rem !important; }
+.bsp-2 { border-spacing: .25rem !important; }
+.bsp-3 { border-spacing: .5rem !important; }
+.bsp-4 { border-spacing: .75rem !important; }
+.bsp-5 { border-spacing: 1rem !important; }
 
 
 
@@ -773,6 +786,10 @@
 .tt-lowercase { text-transform: lowercase !important; }
 .tt-none { text-transform: none !important; }
 .tt-uppercase { text-transform: uppercase !important; }
+
+/* text-overflow */
+.to-ellipsis { text-overflow: ellipsis !important; }
+.to-clip { text-overflow: clip !important; }
 /* user-select.css */
 
 .us-all { user-select: all !important; }

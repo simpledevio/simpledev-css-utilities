@@ -8,44 +8,44 @@
 .p-sticky { position: sticky !important; }
 
 /* other */
-.t-auto {top: auto !important;}
-.t-0 {top: 0 !important;}
-.t-1 {top: .125rem !important;}
-.t-2 {top: .25rem !important;}
-.t-3 {top: .375rem !important;}
-.t-4 {top: .5rem !important;}
-.t-5 {top: .625rem !important;}
+.t-auto { top: auto !important; }
+.t-0 { top: 0 !important; }
+.t-1 { top: .125rem !important; }
+.t-2 { top: .25rem !important; }
+.t-3 { top: .375rem !important; }
+.t-4 { top: .5rem !important; }
+.t-5 { top: .625rem !important; }
 
-.b-auto {bottom: auto !important;}
-.b-0 {bottom: 0 !important;}
-.b-1 {bottom: .125rem !important;}
-.b-2 {bottom: .25rem !important;}
-.b-3 {bottom: .375rem !important;}
-.b-4 {bottom: .5rem !important;}
-.b-5 {bottom: .625rem !important;}
+.b-auto { bottom: auto !important; }
+.b-0 { bottom: 0 !important; }
+.b-1 { bottom: .125rem !important; }
+.b-2 { bottom: .25rem !important; }
+.b-3 { bottom: .375rem !important; }
+.b-4 { bottom: .5rem !important; }
+.b-5 { bottom: .625rem !important; }
 
-.r-auto {right: auto !important;}
-.r-0 {right: 0 !important;}
-.r-1 {right: .125rem !important;}
-.r-2 {right: .25rem !important;}
-.r-3 {right: .375rem !important;}
-.r-4 {right: .5rem !important;}
-.r-5 {right: .625rem !important;}
+.r-auto { right: auto !important; }
+.r-0 { right: 0 !important; }
+.r-1 { right: .125rem !important; }
+.r-2 { right: .25rem !important; }
+.r-3 { right: .375rem !important; }
+.r-4 { right: .5rem !important; }
+.r-5 { right: .625rem !important; }
 
-.l-auto {left: auto !important;}
-.l-0 {left: 0 !important;}
-.l-1 {left: .125rem !important;}
-.l-2 {left: .25rem !important;}
-.l-3 {left: .375rem !important;}
-.l-4 {left: .5rem !important;}
-.l-5 {left: .625rem !important;}
+.l-auto { left: auto !important; }
+.l-0 { left: 0 !important; }
+.l-1 { left: .125rem !important; }
+.l-2 { left: .25rem !important; }
+.l-3 { left: .375rem !important; }
+.l-4 { left: .5rem !important; }
+.l-5 { left: .625rem !important; }
 
 /* z-index */
-.zi-auto {z-index: auto !important;}
-.zi-0 {z-index: 0 !important;}
-.zi-1 {z-index: 1 !important;}
-.zi-2 {z-index: 2 !important;}
-.zi-3 {z-index: 3 !important;}
-.zi-4 {z-index: 4 !important;}
-.zi-5 {z-index: 5 !important;}
-.zi-max {z-index: 2147483647 !important;}
+.zi-auto { z-index: auto !important; }
+.zi-0 { z-index: 0 !important; }
+.zi-1 { z-index: 1 !important; }
+.zi-2 { z-index: 2 !important; }
+.zi-3 { z-index: 3 !important; }
+.zi-4 { z-index: 4 !important; }
+.zi-5 { z-index: 5 !important; }
+.zi-max { z-index: 2147483647 !important; }

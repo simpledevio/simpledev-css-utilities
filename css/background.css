@@ -1,9 +1,9 @@
 /* background.css */
 
 /* Background Attachment Utilities with 'ba-' Prefix */
-.ba-fixed { background-attachment: fixed; }
-.ba-local { background-attachment: local; }
-.ba-scroll { background-attachment: scroll; }
+.ba-fixed { background-attachment: fixed !important; }
+.ba-local { background-attachment: local !important; }
+.ba-scroll { background-attachment: scroll !important; }
 
 /* Background Clip Utilities with 'bc-' Prefix */
 .bc-border-box { background-clip: border-box !important; }

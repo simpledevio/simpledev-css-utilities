@@ -794,6 +794,11 @@
 .tl-fixed { table-layout: fixed !important; }
 /* text.css */
 
+/* hyphens */
+.h-none { hyphens: none !important; }
+.h-manual { hyphens: manual !important; }
+.h-auto { hyphens: auto !important; }
+
 /* scroll-behavior */
 .sb-auto { scroll-behavior: auto !important; }
 .sb-smooth { scroll-behavior: smooth !important; }

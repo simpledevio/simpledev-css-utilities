@@ -1,9 +1,5 @@
 /* border.css */
 
-/* box-sizing */
-.bs-border-box { box-sizing: border-box !important; }
-.bs-content-box { box-sizing: content-box !important; }
-
 /* border-radius */
 .br-0 { border-radius: 0 !important; }
 .br-1 { border-radius: 0.25rem !important; }

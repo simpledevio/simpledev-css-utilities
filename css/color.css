@@ -27,3 +27,10 @@
 .oc-currentcolor { outline-color: currentColor !important; }
 .oc-inherit { outline-color: inherit !important; }
 .oc-transparent { outline-color: transparent !important; }
+
+/* text-decoration-color */
+.tdc-white { text-decoration-color: #fff !important; }
+.tdc-black { text-decoration-color: var(--black) !important; }
+.tdc-currentcolor { text-decoration-color: currentColor !important; }
+.tdc-inherit { text-decoration-color: inherit !important; }
+.tdc-transparent { text-decoration-color: transparent !important; }

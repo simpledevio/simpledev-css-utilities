@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>images demo | simpledev.css utilities</title>
+
+  <style>
+    .container {
+      max-width: 900px;
+      margin-inline: auto;
+      padding-inline: 12px;
+    }
+  </style>
+  <link rel="stylesheet" href="dist/simpledev-utilities.css">
+</head>
+
+<body class="container">
+<nav>
+  <ul class="lst-none d-flex pl-0 jc-center" style="gap: 8px;">
+    <li><a href="./">Home</a></li>
+    <li><a href="./text.html">Text</a></li>
+    <li><a href="./border.html">Borders</a></li>
+    <li><a href="./spacing.html">Spacing</a></li>
+    <li><a href="./layout.html">Layouts</a></li>
+    <li><a href="./images.html">Images</a></li>
+    <li><a href="https://github.com/simpledevio/simpledev-css-utilities">GitHub</a></li>
+  </ul>
+</nav>
+<h1>images demo</h1>
+<ul>
+  <li><a href="#object-fit">object-fit</a></li>
+  <li><a href="#object-position">object-position</a></li>
+  <li><a href="#background-clip">background-clip</a></li>
+  <li><a href="#background-origin">background-origin</a></li>
+  <li><a href="#background-position">background-position</a></li>
+  <li><a href="#background-size">background-size</a></li>
+  <li><a href="#background-repeat">background-repeat</a></li>
+</ul>
+
+<h2 id="object-fit">object-fit</h2>
+<div>
+  <h3>of-contain</h3>
+  <img src="image.jpg" alt="" class="of-contain" width="300" height="300">
+</div>
+<div>
+  <h3>of-cover</h3>
+  <img src="image.jpg" alt="" class="of-cover" width="300" height="300">
+</div>
+<div>
+  <h3>of-fill</h3>
+  <img src="image.jpg" alt="" class="of-fill" width="300" height="300">
+</div>
+<div>
+  <h3>of-none</h3>
+  <img src="image.jpg" alt="" class="of-none" width="300" height="300">
+</div>
+<div>
+  <h3>of-scale-down</h3>
+  <img src="image.jpg" alt="" class="of-scale-down" width="300" height="300">
+</div>
+
+
+
+<h2 id="object-position">object-position</h2>
+<div>
+  <h3>op-bottom</h3>
+  <img src="image.jpg" alt="" class="bg-black of-contain op-bottom" width="300" height="400">
+</div>
+<div>
+  <h3>op-top</h3>
+  <img src="image.jpg" alt="" class="bg-black of-contain op-top" width="300" height="400">
+</div>
+<div>
+  <h3>op-center</h3>
+  <img src="image.jpg" alt="" class="bg-black of-contain op-center" width="300" height="400">
+</div>
+<div>
+  <h3>op-left</h3>
+  <img src="image.jpg" alt="" class="bg-black of-contain op-left" width="400" height="200">
+</div>
+<div>
+  <h3>op-right</h3>
+  <img src="image.jpg" alt="" class="bg-black of-contain op-right" width="400" height="200">
+</div>
+<div>
+  <h3>op-bottom-right</h3>
+  <img src="image-small.jpg" alt="" class="bg-black of-scale-down op-bottom-right" width="400" height="400">
+</div>
+<div>
+  <h3>op-bottom-left</h3>
+  <img src="image-small.jpg" alt="" class="bg-black of-scale-down op-bottom-left" width="400" height="400">
+</div>
+<div>
+  <h3>op-top-left</h3>
+  <img src="image-small.jpg" alt="" class="bg-black of-scale-down op-top-left" width="400" height="400">
+</div>
+<div>
+  <h3>op-top-right</h3>
+  <img src="image-small.jpg" alt="" class="bg-black of-scale-down op-top-right" width="400" height="400">
+</div>
+
+
+
+<h2 id="background-clip">background-clip</h2>
+<h3>bc-border-box</h3>
+<div style="background-image: url(image.jpg); width: 300px;" class="bw-5 bs-dashed p-5 bc-border-box">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident quod illo blanditiis aliquam, dolorum tempora unde a possimus itaque placeat soluta aperiam voluptatum ex ipsum consectetur exercitationem consequatur amet harum! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus ducimus delectus eius labore quaerat laboriosam illo ea a odit tempora. Debitis esse incidunt nesciunt ipsa odit dolor molestiae obcaecati distinctio.</div>
+<h3>bc-content-box</h3>
+<div style="background-image: url(image.jpg); width: 300px;" class="bw-5 bs-dashed p-5 bc-content-box">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident quod illo blanditiis aliquam, dolorum tempora unde a possimus itaque placeat soluta aperiam voluptatum ex ipsum consectetur exercitationem consequatur amet harum! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus ducimus delectus eius labore quaerat laboriosam illo ea a odit tempora. Debitis esse incidunt nesciunt ipsa odit dolor molestiae obcaecati distinctio.</div>
+<h3>bc-padding-box</h3>
+<div style="background-image: url(image.jpg); width: 300px;" class="bw-5 bs-dashed p-5 bc-padding-box">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident quod illo blanditiis aliquam, dolorum tempora unde a possimus itaque placeat soluta aperiam voluptatum ex ipsum consectetur exercitationem consequatur amet harum! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus ducimus delectus eius labore quaerat laboriosam illo ea a odit tempora. Debitis esse incidunt nesciunt ipsa odit dolor molestiae obcaecati distinctio.</div>
+
+<h2 id="background-origin">background-origin</h2>
+<h3>bo-border-box</h3>
+<div style="background-image: url(image.jpg); width: 300px;" class="bw-5 bs-dashed p-5 br-no-repeat bo-border-box">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident quod illo blanditiis aliquam, dolorum tempora unde a possimus itaque placeat soluta aperiam voluptatum ex ipsum consectetur exercitationem consequatur amet harum! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus ducimus delectus eius labore quaerat laboriosam illo ea a odit tempora. Debitis esse incidunt nesciunt ipsa odit dolor molestiae obcaecati distinctio.</div>
+
+<h3>bo-content-box</h3>
+<div style="background-image: url(image.jpg); width: 300px;" class="bw-5 bs-dashed p-5 br-no-repeat bo-content-box">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident quod illo blanditiis aliquam, dolorum tempora unde a possimus itaque placeat soluta aperiam voluptatum ex ipsum consectetur exercitationem consequatur amet harum! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus ducimus delectus eius labore quaerat laboriosam illo ea a odit tempora. Debitis esse incidunt nesciunt ipsa odit dolor molestiae obcaecati distinctio.</div>
+
+<h3>bo-padding-box</h3>
+<div style="background-image: url(image.jpg); width: 300px;" class="bw-5 bs-dashed p-5 br-no-repeat bo-padding-box">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident quod illo blanditiis aliquam, dolorum tempora unde a possimus itaque placeat soluta aperiam voluptatum ex ipsum consectetur exercitationem consequatur amet harum! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus ducimus delectus eius labore quaerat laboriosam illo ea a odit tempora. Debitis esse incidunt nesciunt ipsa odit dolor molestiae obcaecati distinctio.</div>
+
+<h2 id="background-position">background-position</h2>
+<h3>bp-bottom</h3>
+<div style="background-image: url(image.jpg); width: 300px;" class="bp-bottom">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident quod illo blanditiis aliquam, dolorum tempora unde a possimus itaque placeat soluta aperiam voluptatum ex ipsum consectetur exercitationem consequatur amet harum! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus ducimus delectus eius labore quaerat laboriosam illo ea a odit tempora. Debitis esse incidunt nesciunt ipsa odit dolor molestiae obcaecati distinctio.</div>
+<h3>bp-bottom-left</h3>
+<div style="background-image: url(image.jpg); width: 300px;" class="bp-bottom-left">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident quod illo blanditiis aliquam, dolorum tempora unde a possimus itaque placeat soluta aperiam voluptatum ex ipsum consectetur exercitationem consequatur amet harum! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus ducimus delectus eius labore quaerat laboriosam illo ea a odit tempora. Debitis esse incidunt nesciunt ipsa odit dolor molestiae obcaecati distinctio.</div>
+<h3>bp-bottom-right</h3>
+<div style="background-image: url(image.jpg); width: 300px;" class="bp-bottom-right">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident quod illo blanditiis aliquam, dolorum tempora unde a possimus itaque placeat soluta aperiam voluptatum ex ipsum consectetur exercitationem consequatur amet harum! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus ducimus delectus eius labore quaerat laboriosam illo ea a odit tempora. Debitis esse incidunt nesciunt ipsa odit dolor molestiae obcaecati distinctio.</div>
+<h3>bp-center</h3>
+<div style="background-image: url(image.jpg); width: 300px;" class="bp-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident quod illo blanditiis aliquam, dolorum tempora unde a possimus itaque placeat soluta aperiam voluptatum ex ipsum consectetur exercitationem consequatur amet harum! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus ducimus delectus eius labore quaerat laboriosam illo ea a odit tempora. Debitis esse incidunt nesciunt ipsa odit dolor molestiae obcaecati distinctio.</div>
+<h3>bp-left</h3>
+<div style="background-image: url(image.jpg); width: 300px;" class="bp-left">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident quod illo blanditiis aliquam, dolorum tempora unde a possimus itaque placeat soluta aperiam voluptatum ex ipsum consectetur exercitationem consequatur amet harum! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus ducimus delectus eius labore quaerat laboriosam illo ea a odit tempora. Debitis esse incidunt nesciunt ipsa odit dolor molestiae obcaecati distinctio.</div>
+<h3>bp-right</h3>
+<div style="background-image: url(image.jpg); width: 300px;" class="bp-right">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident quod illo blanditiis aliquam, dolorum tempora unde a possimus itaque placeat soluta aperiam voluptatum ex ipsum consectetur exercitationem consequatur amet harum! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus ducimus delectus eius labore quaerat laboriosam illo ea a odit tempora. Debitis esse incidunt nesciunt ipsa odit dolor molestiae obcaecati distinctio.</div>
+<h3>bp-top</h3>
+<div style="background-image: url(image.jpg); width: 300px;" class="bp-top">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident quod illo blanditiis aliquam, dolorum tempora unde a possimus itaque placeat soluta aperiam voluptatum ex ipsum consectetur exercitationem consequatur amet harum! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus ducimus delectus eius labore quaerat laboriosam illo ea a odit tempora. Debitis esse incidunt nesciunt ipsa odit dolor molestiae obcaecati distinctio.</div>
+<h3>bp-top-left</h3>
+<div style="background-image: url(image.jpg); width: 300px;" class="bp-top-left">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident quod illo blanditiis aliquam, dolorum tempora unde a possimus itaque placeat soluta aperiam voluptatum ex ipsum consectetur exercitationem consequatur amet harum! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus ducimus delectus eius labore quaerat laboriosam illo ea a odit tempora. Debitis esse incidunt nesciunt ipsa odit dolor molestiae obcaecati distinctio.</div>
+<h3>bp-top-right</h3>
+<div style="background-image: url(image.jpg); width: 300px;" class="bp-top-right">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident quod illo blanditiis aliquam, dolorum tempora unde a possimus itaque placeat soluta aperiam voluptatum ex ipsum consectetur exercitationem consequatur amet harum! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus ducimus delectus eius labore quaerat laboriosam illo ea a odit tempora. Debitis esse incidunt nesciunt ipsa odit dolor molestiae obcaecati distinctio.</div>
+
+<h2 id="background-size">background-size</h2>
+<h3>bs-auto</h3>
+<div style="background-image: url(image.jpg); width: 300px;" class="bs-auto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident quod illo blanditiis aliquam, dolorum tempora unde a possimus itaque placeat soluta aperiam voluptatum ex ipsum consectetur exercitationem consequatur amet harum! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus ducimus delectus eius labore quaerat laboriosam illo ea a odit tempora. Debitis esse incidunt nesciunt ipsa odit dolor molestiae obcaecati distinctio.</div>
+<h3>bs-cover</h3>
+<div style="background-image: url(image.jpg); width: 300px;" class="bs-cover">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident quod illo blanditiis aliquam, dolorum tempora unde a possimus itaque placeat soluta aperiam voluptatum ex ipsum consectetur exercitationem consequatur amet harum! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus ducimus delectus eius labore quaerat laboriosam illo ea a odit tempora. Debitis esse incidunt nesciunt ipsa odit dolor molestiae obcaecati distinctio. lorem</div>
+<h3>bs-contain</h3>
+<div style="background-image: url(image.jpg); width: 300px;" class="bs-contain">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident quod illo blanditiis aliquam, dolorum tempora unde a possimus itaque placeat soluta aperiam voluptatum ex ipsum consectetur exercitationem consequatur amet harum! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus ducimus delectus eius labore quaerat laboriosam illo ea a odit tempora. Debitis esse incidunt nesciunt ipsa odit dolor molestiae obcaecati distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem suscipit sint atque beatae minima ipsam. Quam unde, quod at quidem distinctio sequi commodi labore reprehenderit, amet asperiores quibusdam quisquam modi!</div>
+
+<h2 id="background-repeat">background-repeat</h2>
+<h3>br-no-repeat</h3>
+<div style="background-image: url(image-small.jpg); min-height: 400px;" class=" mxw-100 br-no-repeat">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident quod illo blanditiis aliquam, dolorum tempora unde a possimus itaque placeat soluta aperiam voluptatum ex ipsum consectetur exercitationem consequatur amet harum! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus ducimus delectus eius labore quaerat laboriosam illo ea a odit tempora. Debitis esse incidunt nesciunt ipsa odit dolor molestiae obcaecati distinctio. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla modi atque ut libero sapiente, aliquam nam beatae accusamus quo, culpa soluta odit ipsa reprehenderit quos? Deserunt ipsum libero quas aspernatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt consectetur veniam ad architecto omnis! Autem ratione cumque consequuntur id ut? Perspiciatis voluptatem, voluptatibus aspernatur at cupiditate tenetur sunt iusto exercitationem.</div>
+<h3>br-repeat</h3>
+<div style="background-image: url(image-small.jpg); min-height: 400px;" class="bs-auto mxw-100 br-repeat">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident quod illo blanditiis aliquam, dolorum tempora unde a possimus itaque placeat soluta aperiam voluptatum ex ipsum consectetur exercitationem consequatur amet harum! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus ducimus delectus eius labore quaerat laboriosam illo ea a odit tempora. Debitis esse incidunt nesciunt ipsa odit dolor molestiae obcaecati distinctio. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla modi atque ut libero sapiente, aliquam nam beatae accusamus quo, culpa soluta odit ipsa reprehenderit quos? Deserunt ipsum libero quas aspernatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt consectetur veniam ad architecto omnis! Autem ratione cumque consequuntur id ut? Perspiciatis voluptatem, voluptatibus aspernatur at cupiditate tenetur sunt iusto exercitationem.</div>
+<h3>br-repeat-x</h3>
+<div style="background-image: url(image-small.jpg); min-height: 400px;" class="bs-auto mxw-100 br-repeat-x">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident quod illo blanditiis aliquam, dolorum tempora unde a possimus itaque placeat soluta aperiam voluptatum ex ipsum consectetur exercitationem consequatur amet harum! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus ducimus delectus eius labore quaerat laboriosam illo ea a odit tempora. Debitis esse incidunt nesciunt ipsa odit dolor molestiae obcaecati distinctio. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla modi atque ut libero sapiente, aliquam nam beatae accusamus quo, culpa soluta odit ipsa reprehenderit quos? Deserunt ipsum libero quas aspernatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt consectetur veniam ad architecto omnis! Autem ratione cumque consequuntur id ut? Perspiciatis voluptatem, voluptatibus aspernatur at cupiditate tenetur sunt iusto exercitationem.</div>
+<h3>br-repeat-y</h3>
+<div style="background-image: url(image-small.jpg); min-height: 400px;" class="bs-auto mxw-100 br-repeat-y">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident quod illo blanditiis aliquam, dolorum tempora unde a possimus itaque placeat soluta aperiam voluptatum ex ipsum consectetur exercitationem consequatur amet harum! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus ducimus delectus eius labore quaerat laboriosam illo ea a odit tempora. Debitis esse incidunt nesciunt ipsa odit dolor molestiae obcaecati distinctio. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla modi atque ut libero sapiente, aliquam nam beatae accusamus quo, culpa soluta odit ipsa reprehenderit quos? Deserunt ipsum libero quas aspernatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt consectetur veniam ad architecto omnis! Autem ratione cumque consequuntur id ut? Perspiciatis voluptatem, voluptatibus aspernatur at cupiditate tenetur sunt iusto exercitationem.</div>
+<h3>br-round</h3>
+<div style="background-image: url(image-small.jpg); min-height: 400px;" class="br-round">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident quod illo blanditiis aliquam, dolorum tempora unde a possimus itaque placeat soluta aperiam voluptatum ex ipsum consectetur exercitationem consequatur amet harum! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus ducimus delectus eius labore quaerat laboriosam illo ea a odit tempora. Debitis esse incidunt nesciunt ipsa odit dolor molestiae obcaecati distinctio. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla modi atque ut libero sapiente, aliquam nam beatae accusamus quo, culpa soluta odit ipsa reprehenderit quos? Deserunt ipsum libero quas aspernatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt consectetur veniam ad architecto omnis! Autem ratione cumque consequuntur id ut? Perspiciatis voluptatem, voluptatibus aspernatur at cupiditate tenetur sunt iusto exercitationem.</div>
+<h3>br-space</h3>
+<div style="background-image: url(image-small.jpg); max-width: 700px;" class="br-space">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident quod illo blanditiis aliquam, dolorum tempora unde a possimus itaque placeat soluta aperiam voluptatum ex ipsum consectetur exercitationem consequatur amet harum! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus ducimus delectus eius labore quaerat laboriosam illo ea a odit tempora. Debitis esse incidunt nesciunt ipsa odit dolor molestiae obcaecati distinctio. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla modi atque ut libero sapiente, aliquam nam beatae accusamus quo, culpa soluta odit ipsa reprehenderit quos? Deserunt ipsum libero quas aspernatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt consectetur veniam ad architecto omnis! Autem ratione cumque consequuntur id ut? Perspiciatis voluptatem, voluptatibus aspernatur at cupiditate tenetur sunt iusto exercitationem.</div>
+</body>
+</html>

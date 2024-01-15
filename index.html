@@ -19,7 +19,7 @@
 
 <body class="container">
 <nav>
-  <ul class="lst-none d-flex pl-0 jc-center" style="gap: 8px;">
+  <ul class="lst-none d-flex pl-0 jc-center fw-wrap" style="gap: 8px;">
     <li><a href="./">Home</a></li>
     <li><a href="./text.html">Text</a></li>
     <li><a href="./border.html">Borders</a></li>
@@ -30,7 +30,29 @@
   </ul>
 </nav>
 
-<h1 class="ta-center">simpledev.css utilities demo</h1>
+<h1 class="ta-center">simpledev.css utilities</h1>
+<p class="fs-1 ta-center">A utility-first CSS framework with a consistent naming convention.</p>
+<p>This project provides utility classes that can be used alongside simpledev.css or your own projects. The goal is to have a consistent naming convention for all of the classes, since a lot of other frameworks don't have a consistent naming convention.</p>
+
+<p>This project is best suited for making small modifications to your layouts, prototyping, or using it as a learning tool to learn about different CSS properties.</p>
+
+<h2>Naming Convention</h2>
+<p>The naming convention for these utility classes is to abbreviate the property and then write out the full value. The words are separated with dashes. So <code>display: block;</code> would become <code>d-block</code>, <code>font-style: italic;</code> would become <code>fs-italic</code>, and <code>text-decoration-line: underline;</code> would become <code>tdl-underline</code>.</p>
+
+<p>For properties that support a range of values, like <code>font-size</code> or <code>line-height</code>, we use the numbers 0-5 instead of value names. So <code>font-size</code> has the classes <code>fs-0</code>, <code>fs-1</code>, <code>fs-2</code>, <code>fs-3</code>, <code>fs-4</code>, and <code>fs-5</code>. For some properties, 0 means the property is actually being set to 0, like for margin and padding, and for others it's just the starting value.</p>
+
+<p>For classes that are responsive, you can add <code>-sm</code>, <code>-md</code>, or <code>-lg</code> to the end of the class name.</p>
+
+<h2>Exceptions</h2>
+<p>There are a handful of classes where we have to deviate from the naming convention to avoid duplicate class names.</p>
+<ul>
+  <li>hy-* for hyphens classes (to avoid conflicting with height classes)</li>
+  <li>bg-* for background-color classes (to avoid conflicting with border-color classes)</li>
+  <li>mxw-* for max-width classes (to avoid conflicting with min-width classes)</li>
+  <li>mbl-* and pbl-* for margin-block and padding-block classes (to avoid conflicting with margin-bottom and padding-bottom classes)</li>
+  <li>bsp-* for border-spacing classes (to avoid conflicting with box-shadow classes)</li>
+</ul>
+
 <p>This website demonstrates some of the classes you can use with simpledev-utilities.css. Click on the links in the navbar to see different demos.</p>
 
 <p>We don't have demos for every single property we support, but you can see all of the properties we support by expanding the lists below. Check the <a href="https://github.com/simpledevio/simpledev-css-utilities">GitHub repo</a> for more information.</p>
@@ -130,5 +152,9 @@
 <h2>Try it</h2>
 <p>Add this link element inside your head element to try using our utility classes.</p>
 <pre class="ox-auto p-3 c-white us-all" style="background-color: black;"><code>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/simpledevio/simpledev-css-utilities@latest/dist/simpledev-utilities.css"&gt;</code></pre>
+
+<footer class="ta-center mt-4 mb-4">
+  <small>&copy; 2023 Javier Alvarado.</small>
+</footer>
 </body>
 </html>

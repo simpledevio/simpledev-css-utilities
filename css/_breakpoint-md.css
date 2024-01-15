@@ -31,12 +31,12 @@
 .fd-column-reverse-md { flex-direction: column-reverse !important; }
 
 /* gap */
-.gap-0-md { gap: var(--space-0); }
-.gap-1-md { gap: var(--space-1); }
-.gap-2-md { gap: var(--space-2); }
-.gap-3-md { gap: var(--space-3); }
-.gap-4-md { gap: var(--space-4); }
-.gap-5-md { gap: var(--space-5); }
+.g-0-md { gap: var(--space-0) !important; }
+.g-1-md { gap: var(--space-1) !important; }
+.g-2-md { gap: var(--space-2) !important; }
+.g-3-md { gap: var(--space-3) !important; }
+.g-4-md { gap: var(--space-4) !important; }
+.g-5-md { gap: var(--space-5) !important; }
 
 /* align-content */
 .ac-baseline-md { align-content: baseline !important; }

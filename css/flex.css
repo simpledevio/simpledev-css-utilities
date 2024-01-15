@@ -19,6 +19,22 @@
 .g-4 { gap: var(--space-4) !important; }
 .g-5 { gap: var(--space-5) !important; }
 
+/* column-gap */
+.cg-0 { column-gap: var(--space-0) !important; }
+.cg-1 { column-gap: var(--space-1) !important; }
+.cg-2 { column-gap: var(--space-2) !important; }
+.cg-3 { column-gap: var(--space-3) !important; }
+.cg-4 { column-gap: var(--space-4) !important; }
+.cg-5 { column-gap: var(--space-5) !important; }
+
+/* row-gap */
+.rg-0 { row-gap: var(--space-0) !important; }
+.rg-1 { row-gap: var(--space-1) !important; }
+.rg-2 { row-gap: var(--space-2) !important; }
+.rg-3 { row-gap: var(--space-3) !important; }
+.rg-4 { row-gap: var(--space-4) !important; }
+.rg-5 { row-gap: var(--space-5) !important; }
+
 /* align-content */
 .ac-baseline { align-content: baseline !important; }
 .ac-center { align-content: center !important; }

@@ -38,6 +38,22 @@
 .g-4-md { gap: var(--space-4) !important; }
 .g-5-md { gap: var(--space-5) !important; }
 
+/* column-gap */
+.cg-0-md { column-gap: var(--space-0) !important; }
+.cg-1-md { column-gap: var(--space-1) !important; }
+.cg-2-md { column-gap: var(--space-2) !important; }
+.cg-3-md { column-gap: var(--space-3) !important; }
+.cg-4-md { column-gap: var(--space-4) !important; }
+.cg-5-md { column-gap: var(--space-5) !important; }
+
+/* row-gap */
+.rg-0-md { row-gap: var(--space-0) !important; }
+.rg-1-md { row-gap: var(--space-1) !important; }
+.rg-2-md { row-gap: var(--space-2) !important; }
+.rg-3-md { row-gap: var(--space-3) !important; }
+.rg-4-md { row-gap: var(--space-4) !important; }
+.rg-5-md { row-gap: var(--space-5) !important; }
+
 /* align-content */
 .ac-baseline-md { align-content: baseline !important; }
 .ac-center-md { align-content: center !important; }

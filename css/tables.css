@@ -4,8 +4,6 @@
 .bc-collapse { border-collapse: collapse !important; }
 .bc-separate { border-collapse: separate !important; }
 
-
-
 /* border-spacing */
 .bsp-0 { border-spacing: 0 !important; }
 .bsp-1 { border-spacing: .125rem !important; }
@@ -14,13 +12,9 @@
 .bsp-4 { border-spacing: .75rem !important; }
 .bsp-5 { border-spacing: 1rem !important; }
 
-
-
 /* caption-side */
 .cs-top { caption-side: top !important; }
 .cs-bottom { caption-side: bottom !important; }
-
-
 
 /* table-layout */
 .tl-auto { table-layout: auto !important; }

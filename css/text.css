@@ -1,9 +1,9 @@
 /* text.css */
 
 /* hyphens */
-.h-none { hyphens: none !important; }
-.h-manual { hyphens: manual !important; }
-.h-auto { hyphens: auto !important; }
+.hy-none { hyphens: none !important; }
+.hy-manual { hyphens: manual !important; }
+.hy-auto { hyphens: auto !important; }
 
 /* scroll-behavior */
 .sb-auto { scroll-behavior: auto !important; }

@@ -159,7 +159,12 @@
 .bs-4 { box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1) !important; }
 .bs-5 { box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25) !important; }
 
+/* height */
+.h-auto { height: auto !important; }
+.mh-100vh {min-height: 100vh !important; }
+
 /* width */
+.w-auto { width: auto !important; }
 .w-100 { width: 100% !important; }
 .mxw-100 { max-width: 100% !important; }
 .mw-0 { min-width: 0 !important; }
@@ -803,9 +808,9 @@
 /* text.css */
 
 /* hyphens */
-.h-none { hyphens: none !important; }
-.h-manual { hyphens: manual !important; }
-.h-auto { hyphens: auto !important; }
+.hy-none { hyphens: none !important; }
+.hy-manual { hyphens: manual !important; }
+.hy-auto { hyphens: auto !important; }
 
 /* scroll-behavior */
 .sb-auto { scroll-behavior: auto !important; }

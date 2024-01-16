@@ -7,7 +7,7 @@
 .p-static { position: static !important; }
 .p-sticky { position: sticky !important; }
 
-/* other */
+/* top */
 .t-auto { top: auto !important; }
 .t-0 { top: 0 !important; }
 .t-1 { top: .125rem !important; }
@@ -16,6 +16,7 @@
 .t-4 { top: .5rem !important; }
 .t-5 { top: .625rem !important; }
 
+/* bottom */
 .b-auto { bottom: auto !important; }
 .b-0 { bottom: 0 !important; }
 .b-1 { bottom: .125rem !important; }
@@ -24,6 +25,7 @@
 .b-4 { bottom: .5rem !important; }
 .b-5 { bottom: .625rem !important; }
 
+/* right */
 .r-auto { right: auto !important; }
 .r-0 { right: 0 !important; }
 .r-1 { right: .125rem !important; }
@@ -32,6 +34,7 @@
 .r-4 { right: .5rem !important; }
 .r-5 { right: .625rem !important; }
 
+/* left */
 .l-auto { left: auto !important; }
 .l-0 { left: 0 !important; }
 .l-1 { left: .125rem !important; }

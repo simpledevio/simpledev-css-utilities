@@ -1,21 +1,21 @@
 /* background.css */
 
-/* Background Attachment Utilities with 'ba-' Prefix */
+/* background-attachment */
 .ba-fixed { background-attachment: fixed !important; }
 .ba-local { background-attachment: local !important; }
 .ba-scroll { background-attachment: scroll !important; }
 
-/* Background Clip Utilities with 'bc-' Prefix */
+/* background-clip */
 .bc-border-box { background-clip: border-box !important; }
 .bc-content-box { background-clip: content-box !important; }
 .bc-padding-box { background-clip: padding-box !important; }
 
-/* Background Origin Utilities with 'bo-' Prefix */
+/* background-origin */
 .bo-border-box { background-origin: border-box !important; }
 .bo-content-box { background-origin: content-box !important; }
 .bo-padding-box { background-origin: padding-box !important; }
 
-/* Background Position Utilities with 'bp-' Prefix */
+/* background-position */
 .bp-bottom { background-position: bottom !important; }
 .bp-bottom-left { background-position: bottom left !important; }
 .bp-bottom-right { background-position: bottom right !important; }
@@ -26,7 +26,7 @@
 .bp-top-left { background-position: top left !important; }
 .bp-top-right { background-position: top right !important; }
 
-/* Background Repeat Utilities with 'br-' Prefix */
+/* background-repeat */
 .br-no-repeat { background-repeat: no-repeat !important; }
 .br-repeat { background-repeat: repeat !important; }
 .br-repeat-x { background-repeat: repeat-x !important; }
@@ -34,7 +34,7 @@
 .br-round { background-repeat: round !important; }
 .br-space { background-repeat: space !important; }
 
-/* Background Size Utilities with 'bs-' Prefix */
+/* background-size */
 .bs-auto { background-size: auto !important; }
 .bs-cover { background-size: cover !important; }
 .bs-contain { background-size: contain !important; }
